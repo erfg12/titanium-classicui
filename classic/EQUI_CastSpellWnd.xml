@@ -207,12 +207,12 @@
     <!--<Font>3</Font>-->
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>-1</X>
-      <Y>318</Y>
+      <X>0</X>
+      <Y>226</Y>
     </Location>
     <Size>
       <CX>18</CX>
-      <CY>11</CY>
+      <CY>18</CY>
     </Size>
 		<Style_Transparent>false</Style_Transparent>
 		<TooltipReference>Opens and closes Your Spellbook</TooltipReference>

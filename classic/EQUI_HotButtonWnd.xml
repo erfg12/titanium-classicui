@@ -483,33 +483,6 @@
 		<Style_Transparent>false</Style_Transparent>
 	</InvSlot>
 
-	<!-- faB -->
-  <Button item="HB_FileButton">
-    <ScreenID>HB_FileButton</ScreenID>
-    <RelativePosition>true</RelativePosition>
-    <Location>
-      <X>52</X>
-      <Y>163</Y>
-    </Location>
-    <Size>
-      <CX>20</CX>
-      <CY>20</CY>
-    </Size>
-    <Style_Checkbox>false</Style_Checkbox>
-    <TextColor>
-      <R>255</R>
-      <G>255</G>
-      <B>255</B>
-    </TextColor>
-    <ButtonDrawTemplate>
-      <Normal>A_BookBtnNormal</Normal>
-      <Pressed>A_BookBtnPressed</Pressed>
-      <Flyby />
-      <Disabled />
-      <PressedFlyby />
-    </ButtonDrawTemplate>
-  </Button>
-
 	<SpellGem item = "HB_SpellGem1">
 		<ScreenID>HB_SpellGem1</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -679,6 +652,5 @@
 		<Pieces>HB_SpellGem4</Pieces>
 		<Pieces>HB_SpellGem5</Pieces>
 		<Pieces>HB_SpellGem6</Pieces>
-		<Pieces>HB_FileButton</Pieces>
 	</Screen>
 </XML>
