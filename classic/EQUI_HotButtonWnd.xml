@@ -1,0 +1,684 @@
+<?xml version = "1.0"?>
+<XML ID = "EQInterfaceDefinitionLanguage">
+	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
+
+<!--  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  -->
+<!--  "Classic UI" mod (c) Fabrice Denis (faB) 2002-2003       -->
+<!--  Based on the original EQ UI (c) Verant Interactive/Sony  -->
+<!--  Email: oukoulele@yahoo.fr                                -->
+<!--  Further modifications of this UI should include credit   -->
+<!--  to the author and a link to this UI download.            -->
+<!--  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  -->
+
+	<Ui2DAnimation item = "LEFT_bg_bottom">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>classic_pieces01.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>8</Y>
+			</Location>
+			<Size>
+				<CX>119</CX>
+				<CY>7</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "LEFT_bg_bottomright">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>classic_bg_left.tga</Texture>
+			<Location>
+				<X>120</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>7</CX>
+				<CY>153</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+<!-- test shadows -->
+	<Ui2DAnimation item = "HB_shadows">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>classic_debug01.tga</Texture>
+			<Location>
+				<X>160</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>96</CX>
+				<CY>144</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+<!-- bottom edge -->
+	<StaticAnimation item = "HB_bg_bottom">
+		<ScreenID>HB_bg_bottom</ScreenID>
+		<Location>
+			<X>0</X>
+			<Y>166</Y>
+		</Location>
+		<Size>
+			<CX>119</CX>
+			<CY>7</CY>
+		</Size>
+		<Animation>LEFT_bg_bottom</Animation>
+	</StaticAnimation>
+
+<!-- bottom right edge connecting to chat window -->
+	<StaticAnimation item = "HB_bg_bottomright">
+		<ScreenID>HB_bg_bottomright</ScreenID>
+		<Location>
+			<X>112</X>
+			<Y>12</Y>
+		</Location>
+		<Size>
+			<CX>7</CX>
+			<CY>154</CY>
+		</Size>
+		<Animation>LEFT_bg_bottomright</Animation>
+	</StaticAnimation>
+
+	<StaticAnimation item = "HB_bg_shadows">
+		<ScreenID>HB_bg_shadows</ScreenID>
+		<Location>
+			<X>11</X>
+			<Y>18</Y>
+		</Location>
+		<Size>
+			<CX>96</CX>
+			<CY>144</CY>
+		</Size>
+		<Animation>HB_shadows</Animation>
+	</StaticAnimation>
+
+	<Button item = "HB_PageLeftButton">
+		<ScreenID>HB_PageLeftButton</ScreenID>
+		<Font>1</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>31</X>
+			<Y>3</Y>
+		</Location>
+		<Size>
+			<CX>21</CX>
+			<CY>13</CY>
+		</Size>
+		<Text></Text>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_Prev_Normal</Normal>
+			<Pressed>A_Prev_Pressed</Pressed>
+			<Flyby>A_Prev_Normal</Flyby>
+			<Disabled>A_Prev_Disabled</Disabled>
+			<PressedFlyby>A_Prev_Pressed</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Label item ="HB_CurrentPageLabel">
+		<ScreenID>HB_CurrentPageLabel</ScreenID>
+		<Font>1</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>54</X>
+			<Y>2</Y>
+		</Location>
+		<Size>
+			<CX>13</CX>
+			<CY>13</CY>
+		</Size>
+		<Text>1</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>false</NoWrap>
+		<AlignCenter>true</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
+
+	<Button item = "HB_PageRightButton">
+		<ScreenID>HB_PageRightButton</ScreenID>
+		<Font>1</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>69</X>
+			<Y>3</Y>
+		</Location>
+		<Size>
+			<CX>21</CX>
+			<CY>13</CY>
+		</Size>
+		<Text></Text>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_Next_Normal</Normal>
+			<Pressed>A_Next_Pressed</Pressed>
+			<Flyby>A_Next_Normal</Flyby>
+			<Disabled>A_Next_Disabled</Disabled>
+			<PressedFlyby>A_Next_Pressed</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "HB_Button1">
+		<ScreenID>HB_Button1</ScreenID>
+		<Font>1</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>15</X>
+			<Y>21</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Text>1</Text>
+		<TextColor>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
+		</TextColor>
+		<DecalSize>
+			<CX>40</CX>
+			<CY>40</CY>
+		</DecalSize>
+		<ButtonDrawTemplate>
+			<Normal>A_SquareBtnNormal</Normal>
+			<Pressed>A_SquareBtnPressed</Pressed>
+			<Flyby>A_SquareBtnFlyby</Flyby>
+			<Disabled>A_SquareBtnDisabled</Disabled>
+			<PressedFlyby>A_SquareBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "HB_Button2">
+		<ScreenID>HB_Button2</ScreenID>
+		<Font>1</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>63</X>
+			<Y>21</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Text>2</Text>
+		<TextColor>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
+		</TextColor>
+		<DecalSize>
+			<CX>40</CX>
+			<CY>40</CY>
+		</DecalSize>
+		<ButtonDrawTemplate>
+			<Normal>A_SquareBtnNormal</Normal>
+			<Pressed>A_SquareBtnPressed</Pressed>
+			<Flyby>A_SquareBtnFlyby</Flyby>
+			<Disabled>A_SquareBtnDisabled</Disabled>
+			<PressedFlyby>A_SquareBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "HB_Button3">
+		<ScreenID>HB_Button3</ScreenID>
+		<Font>1</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>15</X>
+			<Y>69</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Text>3</Text>
+		<TextColor>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
+		</TextColor>
+		<DecalSize>
+			<CX>40</CX>
+			<CY>40</CY>
+		</DecalSize>
+		<ButtonDrawTemplate>
+			<Normal>A_SquareBtnNormal</Normal>
+			<Pressed>A_SquareBtnPressed</Pressed>
+			<Flyby>A_SquareBtnFlyby</Flyby>
+			<Disabled>A_SquareBtnDisabled</Disabled>
+			<PressedFlyby>A_SquareBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "HB_Button4">
+		<ScreenID>HB_Button4</ScreenID>
+		<Font>1</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>63</X>
+			<Y>69</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Text>4</Text>
+		<TextColor>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
+		</TextColor>
+		<DecalSize>
+			<CX>40</CX>
+			<CY>40</CY>
+		</DecalSize>
+		<ButtonDrawTemplate>
+			<Normal>A_SquareBtnNormal</Normal>
+			<Pressed>A_SquareBtnPressed</Pressed>
+			<Flyby>A_SquareBtnFlyby</Flyby>
+			<Disabled>A_SquareBtnDisabled</Disabled>
+			<PressedFlyby>A_SquareBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "HB_Button5">
+		<ScreenID>HB_Button5</ScreenID>
+		<Font>1</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>15</X>
+			<Y>117</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Text>5</Text>
+		<TextColor>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
+		</TextColor>
+		<DecalSize>
+			<CX>40</CX>
+			<CY>40</CY>
+		</DecalSize>
+		<ButtonDrawTemplate>
+			<Normal>A_SquareBtnNormal</Normal>
+			<Pressed>A_SquareBtnPressed</Pressed>
+			<Flyby>A_SquareBtnFlyby</Flyby>
+			<Disabled>A_SquareBtnDisabled</Disabled>
+			<PressedFlyby>A_SquareBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "HB_Button6">
+		<ScreenID>HB_Button6</ScreenID>
+		<Font>1</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>63</X>
+			<Y>117</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Text>6</Text>
+		<TextColor>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
+		</TextColor>
+		<DecalSize>
+			<CX>40</CX>
+			<CY>40</CY>
+		</DecalSize>
+		<ButtonDrawTemplate>
+			<Normal>A_SquareBtnNormal</Normal>
+			<Pressed>A_SquareBtnPressed</Pressed>
+			<Flyby>A_SquareBtnFlyby</Flyby>
+			<Disabled>A_SquareBtnDisabled</Disabled>
+			<PressedFlyby>A_SquareBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<InvSlot item = "HB_InvSlot1">
+		<ScreenID>HB_InvSlot1</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>15</X>
+			<Y>22</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>faB_Spacer</Background>
+		<EQType>-1</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>true</Style_Transparent>
+	</InvSlot>
+
+	<InvSlot item = "HB_InvSlot2">
+		<ScreenID>HB_InvSlot2</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>63</X>
+			<Y>22</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>faB_Spacer</Background>
+		<EQType>-1</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+	</InvSlot>
+
+	<InvSlot item = "HB_InvSlot3">
+		<ScreenID>HB_InvSlot3</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>15</X>
+			<Y>70</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>faB_Spacer</Background>
+		<EQType>-1</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+	</InvSlot>
+
+	<InvSlot item = "HB_InvSlot4">
+		<ScreenID>HB_InvSlot4</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>63</X>
+			<Y>70</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>faB_Spacer</Background>
+		<EQType>-1</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+	</InvSlot>
+
+	<InvSlot item = "HB_InvSlot5">
+		<ScreenID>HB_InvSlot5</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>15</X>
+			<Y>118</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>faB_Spacer</Background>
+		<EQType>-1</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+	</InvSlot>
+
+	<InvSlot item = "HB_InvSlot6">
+		<ScreenID>HB_InvSlot6</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>63</X>
+			<Y>118</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>faB_Spacer</Background>
+		<EQType>-1</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+	</InvSlot>
+
+	<!-- faB -->
+  <Button item="HB_FileButton">
+    <ScreenID>HB_FileButton</ScreenID>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>52</X>
+      <Y>163</Y>
+    </Location>
+    <Size>
+      <CX>20</CX>
+      <CY>20</CY>
+    </Size>
+    <Style_Checkbox>false</Style_Checkbox>
+    <TextColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </TextColor>
+    <ButtonDrawTemplate>
+      <Normal>A_BookBtnNormal</Normal>
+      <Pressed>A_BookBtnPressed</Pressed>
+      <Flyby />
+      <Disabled />
+      <PressedFlyby />
+    </ButtonDrawTemplate>
+  </Button>
+
+	<SpellGem item = "HB_SpellGem1">
+		<ScreenID>HB_SpellGem1</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>17</X>
+			<Y>26</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>32</CY>
+		</Size>
+		<SpellGemDrawTemplate>
+			<Holder>A_SpellGemHolder</Holder>
+			<Background>A_SpellGemBackground</Background>
+			<Highlight>A_SpellGemHighlight</Highlight>
+		</SpellGemDrawTemplate>
+		<SpellIconOffsetX>0</SpellIconOffsetX>
+		<SpellIconOffsetY>0</SpellIconOffsetY>
+	</SpellGem>
+
+	<SpellGem item = "HB_SpellGem2">
+		<ScreenID>HB_SpellGem2</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>65</X>
+			<Y>26</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>32</CY>
+		</Size>
+		<SpellGemDrawTemplate>
+			<Holder>A_SpellGemHolder</Holder>
+			<Background>A_SpellGemBackground</Background>
+			<Highlight>A_SpellGemHighlight</Highlight>
+		</SpellGemDrawTemplate>
+		<SpellIconOffsetX>0</SpellIconOffsetX>
+		<SpellIconOffsetY>0</SpellIconOffsetY>
+	</SpellGem>
+
+	<SpellGem item = "HB_SpellGem3">
+		<ScreenID>HB_SpellGem3</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>17</X>
+			<Y>74</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>32</CY>
+		</Size>
+		<SpellGemDrawTemplate>
+			<Holder>A_SpellGemHolder</Holder>
+			<Background>A_SpellGemBackground</Background>
+			<Highlight>A_SpellGemHighlight</Highlight>
+		</SpellGemDrawTemplate>
+		<SpellIconOffsetX>0</SpellIconOffsetX>
+		<SpellIconOffsetY>0</SpellIconOffsetY>
+	</SpellGem>
+
+	<SpellGem item = "HB_SpellGem4">
+		<ScreenID>HB_SpellGem4</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>65</X>
+			<Y>74</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>32</CY>
+		</Size>
+		<SpellGemDrawTemplate>
+			<Holder>A_SpellGemHolder</Holder>
+			<Background>A_SpellGemBackground</Background>
+			<Highlight>A_SpellGemHighlight</Highlight>
+		</SpellGemDrawTemplate>
+		<SpellIconOffsetX>0</SpellIconOffsetX>
+		<SpellIconOffsetY>0</SpellIconOffsetY>
+	</SpellGem>
+
+	<SpellGem item = "HB_SpellGem5">
+		<ScreenID>HB_SpellGem5</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>17</X>
+			<Y>122</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>32</CY>
+		</Size>
+		<SpellGemDrawTemplate>
+			<Holder>A_SpellGemHolder</Holder>
+			<Background>A_SpellGemBackground</Background>
+			<Highlight>A_SpellGemHighlight</Highlight>
+		</SpellGemDrawTemplate>
+		<SpellIconOffsetX>0</SpellIconOffsetX>
+		<SpellIconOffsetY>0</SpellIconOffsetY>
+	</SpellGem>
+
+	<SpellGem item = "HB_SpellGem6">
+		<ScreenID>HB_SpellGem6</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>65</X>
+			<Y>122</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>32</CY>
+		</Size>
+		<SpellGemDrawTemplate>
+			<Holder>A_SpellGemHolder</Holder>
+			<Background>A_SpellGemBackground</Background>
+			<Highlight>A_SpellGemHighlight</Highlight>
+		</SpellGemDrawTemplate>
+		<SpellIconOffsetX>0</SpellIconOffsetX>
+		<SpellIconOffsetY>0</SpellIconOffsetY>
+	</SpellGem>
+
+	<Screen item = "HotButtonWnd">
+		<ScreenID/>
+		<Font>2</Font>
+		<RelativePosition>false</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>331</Y>
+		</Location>
+		<Size>
+			<CX>119</CX>
+			<CY>172</CY>
+		</Size>
+		<Text>Hot Buttons</Text>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<TooltipReference>Hot Buttons</TooltipReference>
+		<DrawTemplate>WDT_LEFT</DrawTemplate>
+		<Style_Titlebar>false</Style_Titlebar>
+		<Style_Closebox>true</Style_Closebox>
+		<Style_Minimizebox>false</Style_Minimizebox>
+		<Style_Border>false</Style_Border>
+		<Style_Sizable>false</Style_Sizable>
+<!-- faB -->
+		<Pieces>HB_bg_bottom</Pieces>
+		<Pieces>HB_bg_bottomright</Pieces>
+		<Pieces>HB_bg_shadows</Pieces>
+<!-- faB -->
+		<Pieces>HB_PageLeftButton</Pieces>
+		<Pieces>HB_PageRightButton</Pieces>
+		<Pieces>HB_CurrentPageLabel</Pieces>
+		<Pieces>HB_Button1</Pieces>
+		<Pieces>HB_Button2</Pieces>
+		<Pieces>HB_Button3</Pieces>
+		<Pieces>HB_Button4</Pieces>
+		<Pieces>HB_Button5</Pieces>
+		<Pieces>HB_Button6</Pieces>
+		<Pieces>HB_InvSlot1</Pieces>
+		<Pieces>HB_InvSlot2</Pieces>
+		<Pieces>HB_InvSlot3</Pieces>
+		<Pieces>HB_InvSlot4</Pieces>
+		<Pieces>HB_InvSlot5</Pieces>
+		<Pieces>HB_InvSlot6</Pieces>
+		<Pieces>HB_SpellGem1</Pieces>
+		<Pieces>HB_SpellGem2</Pieces>
+		<Pieces>HB_SpellGem3</Pieces>
+		<Pieces>HB_SpellGem4</Pieces>
+		<Pieces>HB_SpellGem5</Pieces>
+		<Pieces>HB_SpellGem6</Pieces>
+		<Pieces>HB_FileButton</Pieces>
+	</Screen>
+</XML>

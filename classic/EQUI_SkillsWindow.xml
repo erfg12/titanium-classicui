@@ -1,0 +1,134 @@
+<?xml version = "1.0"?>
+<XML ID = "EQInterfaceDefinitionLanguage">
+	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
+
+<!--  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  -->
+<!--  "Classic UI" mod (c) Fabrice Denis (faB) 2002-2003       -->
+<!--  Based on the original EQ UI (c) Verant Interactive/Sony  -->
+<!--  Email: oukoulele@yahoo.fr                                -->
+<!--  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  -->
+
+<!-- A background texture for the Skills List -->
+	<Button item = "SKLW_StretchableBg">
+		<ScreenID>SKLW_StretchableBg</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<AutoStretch>true</AutoStretch>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<LeftAnchorOffset>4</LeftAnchorOffset>
+		<TopAnchorOffset>4</TopAnchorOffset>
+		<RightAnchorOffset>4</RightAnchorOffset>
+		<BottomAnchorOffset>34</BottomAnchorOffset>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+		<Style_Checkbox>false</Style_Checkbox>
+		<!--<RadioGroup/>-->
+		<ButtonDrawTemplate>
+			<Normal>A_Listbox_Background2</Normal>
+			<NormalDecal>faB_Spacer</NormalDecal>
+		</ButtonDrawTemplate>
+		<!--<SoundPressed/>-->
+		<!--<<SoundUp/>-->
+		<!--<SoundFlyby/>-->
+		<DecalOffset>
+			<X>0</X>
+			<Y>0</Y>
+		</DecalOffset>
+		<DecalSize>
+			<CX>0</CX>
+			<CY>0</CY>
+		</DecalSize>
+	</Button>
+
+	<Listbox item = "SKLW_SkillList">
+		<ScreenID>SkillList</ScreenID>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<AutoStretch>true</AutoStretch>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<LeftAnchorOffset>4</LeftAnchorOffset>
+		<TopAnchorOffset>4</TopAnchorOffset>
+		<RightAnchorOffset>4</RightAnchorOffset>
+		<BottomAnchorOffset>34</BottomAnchorOffset>
+		<Style_Border>true</Style_Border>
+		<Style_VScroll>true</Style_VScroll>
+		<Style_Transparent>true</Style_Transparent>
+		<Columns>
+			<Width>130</Width>
+			<Heading>Skill Name</Heading>
+		</Columns>
+		<Columns>
+			<Width>85</Width>
+			<Heading>Rank</Heading>
+		</Columns>
+		<Columns>
+			<Width>50</Width>
+			<Heading>Value</Heading>
+		</Columns>
+	</Listbox>
+	<Button item = "SKLW_DoneButton">
+		<ScreenID>DoneButton</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorOffset>104</LeftAnchorOffset>
+		<TopAnchorOffset>28</TopAnchorOffset>
+		<RightAnchorOffset>4</RightAnchorOffset>
+		<BottomAnchorOffset>4</BottomAnchorOffset>
+		<TopAnchorToTop>false</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<LeftAnchorToLeft>false</LeftAnchorToLeft>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+		<Style_Checkbox>false</Style_Checkbox>
+		<!--<RadioGroup/>-->
+		<Text>Done</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BtnNormal</Normal>
+			<Pressed>A_BtnPressed</Pressed>
+			<Flyby>A_BtnFlyby</Flyby>
+			<Disabled>A_BtnDisabled</Disabled>
+			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+		<!--<SoundPressed/>-->
+		<!--<<SoundUp/>-->
+		<!--<SoundFlyby/>-->
+	</Button>
+	<Screen item = "SkillsWindow">
+		<!--<ScreenID/>-->
+		<!--<Font/>-->
+		<RelativePosition>false</RelativePosition>
+		<Location>
+			<X>120</X>
+			<Y>200</Y>
+		</Location>
+		<Size>
+			<CX>300</CX>
+			<CY>240</CY>
+		</Size>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<TooltipReference/>
+		<Text>Skills</Text>
+		<DrawTemplate>WDT_Def</DrawTemplate>
+		<Style_Titlebar>true</Style_Titlebar>
+		<Style_Closebox>true</Style_Closebox>
+		<Style_Minimizebox>true</Style_Minimizebox>
+		<Style_Border>true</Style_Border>
+		<Style_Sizable>true</Style_Sizable>
+<!-- faB -->
+		<Pieces>SKLW_StretchableBg</Pieces>
+<!-- faB -->
+		<Pieces>SKLW_SkillList</Pieces>
+		<Pieces>SKLW_DoneButton</Pieces>
+	</Screen>
+
+</XML>

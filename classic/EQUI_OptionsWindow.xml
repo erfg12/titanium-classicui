@@ -1,0 +1,3541 @@
+<?xml version="1.0"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+        <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes"/>
+        <!-- *********** Options Tab Window, General Options Page *********** -->
+        <!-- Fast Item Destroy -->
+        <Button item="OGP_FastItemDestroyCheckbox">
+                <ScreenID>OGP_FastItemDestroyCheckbox</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>10</X>
+                        <Y>15</Y>
+                </Location>
+                <Size>
+                        <CX>150</CX>
+                        <CY>20</CY>
+                </Size>
+                <Style_VScroll>false</Style_VScroll>
+                <Style_HScroll>false</Style_HScroll>
+                <Style_Transparent>false</Style_Transparent>
+                <Style_Checkbox>true</Style_Checkbox>
+                <Text>Fast Item Destroy</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <ButtonDrawTemplate>
+                        <Normal>A_BigBtnNormal</Normal>
+                        <Pressed>A_BigBtnPressed</Pressed>
+                        <Flyby>A_BigBtnFlyby</Flyby>
+                        <Disabled>A_BigBtnDisabled</Disabled>
+                        <PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+                </ButtonDrawTemplate>
+        </Button>
+        <!-- AA No Confirm -->
+        <Button item="OGP_AANoConfirmCheckbox">
+                <ScreenID>OGP_AANoConfirmCheckbox</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>10</X>
+                        <Y>115</Y>
+                </Location>
+                <Size>
+                        <CX>150</CX>
+                        <CY>20</CY>
+                </Size>
+                <Style_VScroll>false</Style_VScroll>
+                <Style_HScroll>false</Style_HScroll>
+                <Style_Transparent>false</Style_Transparent>
+                <Style_Checkbox>true</Style_Checkbox>
+                <Text>Fast AA Purchase</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <TooltipReference>Toggle whether you want to spend AA points without a confirmation window.</TooltipReference>
+                <ButtonDrawTemplate>
+                        <Normal>A_BigBtnNormal</Normal>
+                        <Pressed>A_BigBtnPressed</Pressed>
+                        <Flyby>A_BigBtnFlyby</Flyby>
+                        <Disabled>A_BigBtnDisabled</Disabled>
+                        <PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+                </ButtonDrawTemplate>
+        </Button>
+        <!-- Adventure Merchant No Confirm -->
+        <Button item="OGP_AdvMerchantNoConfirmCheckbox">
+                <ScreenID>OGP_AdvMerchantNoConfirmCheckbox</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>10</X>
+                        <Y>135</Y>
+                </Location>
+                <Size>
+                        <CX>150</CX>
+                        <CY>20</CY>
+                </Size>
+                <Style_VScroll>false</Style_VScroll>
+                <Style_HScroll>false</Style_HScroll>
+                <Style_Transparent>false</Style_Transparent>
+                <Style_Checkbox>true</Style_Checkbox>
+                <Text>Fast Adv Purchase</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <TooltipReference>Toggle whether you want to spend Adventure Points without a confirmation window.</TooltipReference>
+                <ButtonDrawTemplate>
+                        <Normal>A_BigBtnNormal</Normal>
+                        <Pressed>A_BigBtnPressed</Pressed>
+                        <Flyby>A_BigBtnFlyby</Flyby>
+                        <Disabled>A_BigBtnDisabled</Disabled>
+                        <PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+                </ButtonDrawTemplate>
+        </Button>
+        <!-- Leadership No Confirm -->
+        <Button item="OGP_LeadershipNoConfirmCheckbox">
+                <ScreenID>OGP_LeadershipNoConfirmCheckbox</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>10</X>
+                        <Y>155</Y>
+                </Location>
+                <Size>
+                        <CX>150</CX>
+                        <CY>20</CY>
+                </Size>
+                <Style_VScroll>false</Style_VScroll>
+                <Style_HScroll>false</Style_HScroll>
+                <Style_Transparent>false</Style_Transparent>
+                <Style_Checkbox>true</Style_Checkbox>
+                <Text>Fast Leadership Purchase</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <TooltipReference>Toggle whether you want to spend leadership points without a confirmation window.</TooltipReference>
+                <ButtonDrawTemplate>
+                        <Normal>A_BigBtnNormal</Normal>
+                        <Pressed>A_BigBtnPressed</Pressed>
+                        <Flyby>A_BigBtnFlyby</Flyby>
+                        <Disabled>A_BigBtnDisabled</Disabled>
+                        <PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+                </ButtonDrawTemplate>
+        </Button>
+        <!-- Accept guild invites -->
+        <Button item="OGP_GuildInvitesCheckbox">
+                <ScreenID>OGP_GuildInvitesCheckbox</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>10</X>
+                        <Y>35</Y>
+                </Location>
+                <Size>
+                        <CX>150</CX>
+                        <CY>20</CY>
+                </Size>
+                <Style_VScroll>false</Style_VScroll>
+                <Style_HScroll>false</Style_HScroll>
+                <Style_Transparent>false</Style_Transparent>
+                <Style_Checkbox>true</Style_Checkbox>
+                <Text>Receive Guild Invites</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <ButtonDrawTemplate>
+                        <Normal>A_BigBtnNormal</Normal>
+                        <Pressed>A_BigBtnPressed</Pressed>
+                        <Flyby>A_BigBtnFlyby</Flyby>
+                        <Disabled>A_BigBtnDisabled</Disabled>
+                        <PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+                </ButtonDrawTemplate>
+        </Button>
+        <!-- Autosplit loot -->
+        <Button item="OGP_LootAutosplitCheckbox">
+                <ScreenID>OGP_LootAutosplitCheckbox</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>10</X>
+                        <Y>55</Y>
+                </Location>
+                <Size>
+                        <CX>150</CX>
+                        <CY>20</CY>
+                </Size>
+                <Style_VScroll>false</Style_VScroll>
+                <Style_HScroll>false</Style_HScroll>
+                <Style_Transparent>false</Style_Transparent>
+                <Style_Checkbox>true</Style_Checkbox>
+                <Text>Autosplit</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <ButtonDrawTemplate>
+                        <Normal>A_BigBtnNormal</Normal>
+                        <Pressed>A_BigBtnPressed</Pressed>
+                        <Flyby>A_BigBtnFlyby</Flyby>
+                        <Disabled>A_BigBtnDisabled</Disabled>
+                        <PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+                </ButtonDrawTemplate>
+        </Button>
+        <!-- Player trade options -->
+        <Label item="OGP_PlayerTradeLabel">
+                <ScreenID>OGP_PlayerTradeLabel</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>200</X>
+                        <Y>230</Y>
+                </Location>
+                <Size>
+                        <CX>150</CX>
+                        <CY>14</CY>
+                </Size>
+                <Text>Allow trading with:</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <NoWrap>true</NoWrap>
+                <AlignCenter>false</AlignCenter>
+                <AlignRight>false</AlignRight>
+        </Label>
+        <Combobox item="OGP_PlayerTradeCombobox">
+                <ScreenID>OGP_PlayerTradeCombobox</ScreenID>
+                <DrawTemplate>WDT_Inner</DrawTemplate>
+                <Location>
+                        <X>200</X>
+                        <Y>250</Y>
+                </Location>
+                <Size>
+                        <CX>150</CX>
+                        <CY>24</CY>
+                </Size>
+                <ListHeight>60</ListHeight>
+                <Button>BDT_Combo</Button>
+                <Style_Border>true</Style_Border>
+                <Choices>Everyone</Choices>
+                <Choices>Party members only</Choices>
+                <Choices>No one</Choices>
+        </Combobox>
+        <Button item="OGP_SystemInfoButton">
+                <ScreenID>OGP_SystemInfoButton</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>10</X>
+                        <Y>215</Y>
+                </Location>
+                <Size>
+                        <CX>150</CX>
+                        <CY>20</CY>
+                </Size>
+                <Style_VScroll>false</Style_VScroll>
+                <Style_HScroll>false</Style_HScroll>
+                <Style_Transparent>false</Style_Transparent>
+                <Style_Checkbox>true</Style_Checkbox>
+                <Text>Allow SysInfo Send</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <ButtonDrawTemplate>
+                        <Normal>A_BigBtnNormal</Normal>
+                        <Pressed>A_BigBtnPressed</Pressed>
+                        <Flyby>A_BigBtnFlyby</Flyby>
+                        <Disabled>A_BigBtnDisabled</Disabled>
+                        <PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+                </ButtonDrawTemplate>
+        </Button>
+        <!-- Newbie Left-click text -->
+        <Button item="OGP_LeftClickHelpText">
+                <ScreenID>OGP_LeftClickHelpText</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>10</X>
+                        <Y>235</Y>
+                </Location>
+                <Size>
+                        <CX>150</CX>
+                        <CY>20</CY>
+                </Size>
+                <Style_VScroll>false</Style_VScroll>
+                <Style_HScroll>false</Style_HScroll>
+                <Style_Transparent>false</Style_Transparent>
+                <Style_Checkbox>true</Style_Checkbox>
+                <Text>Target Click Shows Help</Text>
+                <TooltipReference>Show help text when you left click on a target object or player.</TooltipReference>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <ButtonDrawTemplate>
+                        <Normal>A_BigBtnNormal</Normal>
+                        <Pressed>A_BigBtnPressed</Pressed>
+                        <Flyby>A_BigBtnFlyby</Flyby>
+                        <Disabled>A_BigBtnDisabled</Disabled>
+                        <PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+                </ButtonDrawTemplate>
+        </Button>
+        <Button item="OGP_UseTellWindowsCheckbox">
+                <ScreenID>OGP_UseTellWindowsCheckbox</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>10</X>
+                        <Y>255</Y>
+                </Location>
+                <Size>
+                        <CX>150</CX>
+                        <CY>20</CY>
+                </Size>
+                <Style_VScroll>false</Style_VScroll>
+                <Style_HScroll>false</Style_HScroll>
+                <Style_Transparent>false</Style_Transparent>
+                <Style_Checkbox>true</Style_Checkbox>
+                <Text>Use Tell Windows</Text>
+                <TooltipReference>Toggle whether you want tells to appear in their own separate chat windows.</TooltipReference>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <ButtonDrawTemplate>
+                        <Normal>A_BigBtnNormal</Normal>
+                        <Pressed>A_BigBtnPressed</Pressed>
+                        <Flyby>A_BigBtnFlyby</Flyby>
+                        <Disabled>A_BigBtnDisabled</Disabled>
+                        <PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+                </ButtonDrawTemplate>
+        </Button>
+        <!-- Allow/prevent the game from making your character duck to squeeze into small spaces -->
+        <Button item="OGP_AllowAutoDuckCheckbox">
+                <ScreenID>OGP_AllowAutoDuckCheckbox</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>10</X>
+                        <Y>275</Y>
+                </Location>
+                <Size>
+                        <CX>150</CX>
+                        <CY>20</CY>
+                </Size>
+                <Style_VScroll>false</Style_VScroll>
+                <Style_HScroll>false</Style_HScroll>
+                <Style_Transparent>false</Style_Transparent>
+                <Style_Checkbox>true</Style_Checkbox>
+                <Text>Allow Auto-duck</Text>
+                <TooltipReference>Toggle whether you will let the game make you duck to fit into small spaces.</TooltipReference>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <ButtonDrawTemplate>
+                        <Normal>A_BigBtnNormal</Normal>
+                        <Pressed>A_BigBtnPressed</Pressed>
+                        <Flyby>A_BigBtnFlyby</Flyby>
+                        <Disabled>A_BigBtnDisabled</Disabled>
+                        <PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+                </ButtonDrawTemplate>
+        </Button>
+        <!-- Allow/prevent the game from making your character stand when you press forward -->
+        <Button item="OGP_AllowAutoStandCheckbox">
+                <ScreenID>OGP_AllowAutoStandCheckbox</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>10</X>
+                        <Y>295</Y>
+                </Location>
+                <Size>
+                        <CX>150</CX>
+                        <CY>20</CY>
+                </Size>
+                <Style_VScroll>false</Style_VScroll>
+                <Style_HScroll>false</Style_HScroll>
+                <Style_Transparent>false</Style_Transparent>
+                <Style_Checkbox>true</Style_Checkbox>
+                <Text>Allow Auto-stand</Text>
+                <TooltipReference>Toggle whether moving forward automatically makes your character stand up if sitting.</TooltipReference>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <ButtonDrawTemplate>
+                        <Normal>A_BigBtnNormal</Normal>
+                        <Pressed>A_BigBtnPressed</Pressed>
+                        <Flyby>A_BigBtnFlyby</Flyby>
+                        <Disabled>A_BigBtnDisabled</Disabled>
+                        <PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+                </ButtonDrawTemplate>
+        </Button>
+        <!-- Allow/prevent the game from making your character stand when you press forward -->
+        <Button item="OGP_AutojoinCheckbox">
+                <ScreenID>OGP_Autojoin</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>10</X>
+                        <Y>315</Y>
+                </Location>
+                <Size>
+                        <CX>150</CX>
+                        <CY>20</CY>
+                </Size>
+                <Style_VScroll>false</Style_VScroll>
+                <Style_HScroll>false</Style_HScroll>
+                <Style_Transparent>false</Style_Transparent>
+                <Style_Checkbox>true</Style_Checkbox>
+                <Text>Join General Channels</Text>
+                <TooltipReference>Toggle whether to autojoin general help chat channels.</TooltipReference>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <ButtonDrawTemplate>
+                        <Normal>A_BigBtnNormal</Normal>
+                        <Pressed>A_BigBtnPressed</Pressed>
+                        <Flyby>A_BigBtnFlyby</Flyby>
+                        <Disabled>A_BigBtnDisabled</Disabled>
+                        <PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+                </ButtonDrawTemplate>
+        </Button>
+        <!-- Auto Consent Group -->
+        <Button item="OGP_AutoConsentGroupCheckbox">
+                <ScreenID>OGP_AutoConsentGroupCheckbox</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>10</X>
+                        <Y>335</Y>
+                </Location>
+                <Size>
+                        <CX>150</CX>
+                        <CY>20</CY>
+                </Size>
+                <Style_VScroll>false</Style_VScroll>
+                <Style_HScroll>false</Style_HScroll>
+                <Style_Transparent>false</Style_Transparent>
+                <Style_Checkbox>true</Style_Checkbox>
+                <Text>Auto Consent Group</Text>
+                <TooltipReference>Toggle whether to automatically give your group consent to move your corpse.</TooltipReference>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <ButtonDrawTemplate>
+                        <Normal>A_BigBtnNormal</Normal>
+                        <Pressed>A_BigBtnPressed</Pressed>
+                        <Flyby>A_BigBtnFlyby</Flyby>
+                        <Disabled>A_BigBtnDisabled</Disabled>
+                        <PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+                </ButtonDrawTemplate>
+        </Button>
+        <!-- Auto Consent Raid -->
+        <Button item="OGP_AutoConsentRaidCheckbox">
+                <ScreenID>OGP_AutoConsentRaidCheckbox</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>10</X>
+                        <Y>355</Y>
+                </Location>
+                <Size>
+                        <CX>150</CX>
+                        <CY>20</CY>
+                </Size>
+                <Style_VScroll>false</Style_VScroll>
+                <Style_HScroll>false</Style_HScroll>
+                <Style_Transparent>false</Style_Transparent>
+                <Style_Checkbox>true</Style_Checkbox>
+                <Text>Auto Consent Raid</Text>
+                <TooltipReference>Toggle whether to automatically give your raid consent to move your corpse.</TooltipReference>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <ButtonDrawTemplate>
+                        <Normal>A_BigBtnNormal</Normal>
+                        <Pressed>A_BigBtnPressed</Pressed>
+                        <Flyby>A_BigBtnFlyby</Flyby>
+                        <Disabled>A_BigBtnDisabled</Disabled>
+                        <PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+                </ButtonDrawTemplate>
+        </Button>
+        <!-- Auto Consent Guild -->
+        <Button item="OGP_AutoConsentGuildCheckbox">
+                <ScreenID>OGP_AutoConsentGuildCheckbox</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>10</X>
+                        <Y>375</Y>
+                </Location>
+                <Size>
+                        <CX>150</CX>
+                        <CY>20</CY>
+                </Size>
+                <Style_VScroll>false</Style_VScroll>
+                <Style_HScroll>false</Style_HScroll>
+                <Style_Transparent>false</Style_Transparent>
+                <Style_Checkbox>true</Style_Checkbox>
+                <Text>Auto Consent Guild</Text>
+                <TooltipReference>Toggle whether to automatically give your guild consent to move your corpse.</TooltipReference>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <ButtonDrawTemplate>
+                        <Normal>A_BigBtnNormal</Normal>
+                        <Pressed>A_BigBtnPressed</Pressed>
+                        <Flyby>A_BigBtnFlyby</Flyby>
+                        <Disabled>A_BigBtnDisabled</Disabled>
+                        <PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+                </ButtonDrawTemplate>
+        </Button>
+        <!-- Load a new UI skin -->
+        <Button item="OGP_LoadSkinButton">
+                <ScreenID>OGP_LoadSkinButton</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>200</X>
+                        <Y>345</Y>
+                </Location>
+                <Size>
+                        <CX>150</CX>
+                        <CY>20</CY>
+                </Size>
+                <Style_VScroll>false</Style_VScroll>
+                <Style_HScroll>false</Style_HScroll>
+                <Style_Transparent>false</Style_Transparent>
+                <Style_Checkbox>false</Style_Checkbox>
+                <Text>Load UI Skin</Text>
+                <TooltipReference>Load a new look and style for your EverQuest UI.</TooltipReference>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <ButtonDrawTemplate>
+                        <Normal>A_BigBtnNormal</Normal>
+                        <Pressed>A_BigBtnPressed</Pressed>
+                        <Flyby>A_BigBtnFlyby</Flyby>
+                        <Disabled>A_BigBtnDisabled</Disabled>
+                        <PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+                </ButtonDrawTemplate>
+        </Button>
+        <!-- EQPlayers auto update -->
+        <Button item="OGP_EQPlayersAutoUpdateButton">
+                <ScreenID>OGP_EQPlayersAutoUpdateButton</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>200</X>
+                        <Y>365</Y>
+                </Location>
+                <Size>
+                        <CX>150</CX>
+                        <CY>20</CY>
+                </Size>
+                <Style_VScroll>false</Style_VScroll>
+                <Style_HScroll>false</Style_HScroll>
+                <Style_Transparent>false</Style_Transparent>
+                <Style_Checkbox>true</Style_Checkbox>
+                <Text>EQPlayers Auto Update</Text>
+                <TooltipReference>Determines whether or not EQPlayers is auto updated for your character.</TooltipReference>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <ButtonDrawTemplate>
+                        <Normal>A_BigBtnNormal</Normal>
+                        <Pressed>A_BigBtnPressed</Pressed>
+                        <Flyby>A_BigBtnFlyby</Flyby>
+                        <Disabled>A_BigBtnDisabled</Disabled>
+                        <PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+                </ButtonDrawTemplate>
+        </Button>
+        <!-- Item dropping options -->
+        <Label item="OGP_ItemDroppingLabel">
+                <ScreenID>OGP_ItemDroppingLabel</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>200</X>
+                        <Y>179</Y>
+                </Location>
+                <Size>
+                        <CX>150</CX>
+                        <CY>14</CY>
+                </Size>
+                <Text>Fast Drop:</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <NoWrap>true</NoWrap>
+                <AlignCenter>false</AlignCenter>
+                <AlignRight>false</AlignRight>
+        </Label>
+        <Combobox item="OGP_ItemDroppingCombobox">
+                <ScreenID>OGP_ItemDroppingCombobox</ScreenID>
+                <DrawTemplate>WDT_Inner</DrawTemplate>
+                <Location>
+                        <X>200</X>
+                        <Y>199</Y>
+                </Location>
+                <Size>
+                        <CX>150</CX>
+                        <CY>24</CY>
+                </Size>
+                <ListHeight>60</ListHeight>
+                <Button>BDT_Combo</Button>
+                <Style_Border>true</Style_Border>
+                <Choices>With confirmation</Choices>
+                <Choices>Without confirmation</Choices>
+                <Choices>Never</Choices>
+        </Combobox>
+        <!-- Font Selection -->
+        <Label item="OGP_FontLabel">
+                <ScreenID>OGP_FontLabel</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>200</X>
+                        <Y>285</Y>
+                </Location>
+                <Size>
+                        <CX>90</CX>
+                        <CY>14</CY>
+                </Size>
+                <Text>Current Font:</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <NoWrap>true</NoWrap>
+                <AlignCenter>false</AlignCenter>
+                <AlignRight>false</AlignRight>
+        </Label>
+        <Label item="OGP_CurrentFont">
+                <ScreenID>OGP_CurrentFont</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>290</X>
+                        <Y>285</Y>
+                </Location>
+                <Size>
+                        <CX>80</CX>
+                        <CY>14</CY>
+                </Size>
+                <Text>Arial</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <NoWrap>true</NoWrap>
+                <AlignCenter>false</AlignCenter>
+                <AlignRight>false</AlignRight>
+        </Label>
+        <Combobox item="OGP_FontSelector">
+                <ScreenID>OGP_FontSelector</ScreenID>
+                <DrawTemplate>WDT_Inner</DrawTemplate>
+                <Location>
+                        <X>200</X>
+                        <Y>305</Y>
+                </Location>
+                <Size>
+                        <CX>110</CX>
+                        <CY>24</CY>
+                </Size>
+                <ListHeight>90</ListHeight>
+                <Button>BDT_Combo</Button>
+                <Style_Border>true</Style_Border>
+        </Combobox>
+        <Button item="OGP_ChangeFont">
+                <ScreenID>OGP_ChangeFont</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>316</X>
+                        <Y>305</Y>
+                </Location>
+                <Size>
+                        <CX>50</CX>
+                        <CY>24</CY>
+                </Size>
+                <Style_VScroll>false</Style_VScroll>
+                <Style_HScroll>false</Style_HScroll>
+                <Style_Transparent>false</Style_Transparent>
+                <Style_Checkbox>false</Style_Checkbox>
+                <Text>Accept</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <ButtonDrawTemplate>
+                        <Normal>A_BigBtnNormal</Normal>
+                        <Pressed>A_BigBtnPressed</Pressed>
+                        <Flyby>A_BigBtnFlyby</Flyby>
+                        <Disabled>A_BigBtnDisabled</Disabled>
+                        <PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+                </ButtonDrawTemplate>
+        </Button>
+        <!-- Anonymous -->
+        <Button item="OGP_AnonymousCheckbox">
+                <ScreenID>OGP_AnonymousCheckbox</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>10</X>
+                        <Y>75</Y>
+                </Location>
+                <Size>
+                        <CX>150</CX>
+                        <CY>20</CY>
+                </Size>
+                <Style_VScroll>false</Style_VScroll>
+                <Style_HScroll>false</Style_HScroll>
+                <Style_Transparent>false</Style_Transparent>
+                <Style_Checkbox>true</Style_Checkbox>
+                <Text>Anonymous</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <ButtonDrawTemplate>
+                        <Normal>A_BigBtnNormal</Normal>
+                        <Pressed>A_BigBtnPressed</Pressed>
+                        <Flyby>A_BigBtnFlyby</Flyby>
+                        <Disabled>A_BigBtnDisabled</Disabled>
+                        <PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+                </ButtonDrawTemplate>
+        </Button>
+        <!-- Roleplaying -->
+        <Button item="OGP_RoleplayingCheckbox">
+                <ScreenID>OGP_RoleplayingCheckbox</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>10</X>
+                        <Y>95</Y>
+                </Location>
+                <Size>
+                        <CX>150</CX>
+                        <CY>20</CY>
+                </Size>
+                <Style_VScroll>false</Style_VScroll>
+                <Style_HScroll>false</Style_HScroll>
+                <Style_Transparent>false</Style_Transparent>
+                <Style_Checkbox>true</Style_Checkbox>
+                <Text>Roleplaying</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <ButtonDrawTemplate>
+                        <Normal>A_BigBtnNormal</Normal>
+                        <Pressed>A_BigBtnPressed</Pressed>
+                        <Flyby>A_BigBtnFlyby</Flyby>
+                        <Disabled>A_BigBtnDisabled</Disabled>
+                        <PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+                </ButtonDrawTemplate>
+        </Button>
+        <Button item="OGP_PetWindowPopupCheckbox">
+                <ScreenID>OGP_PetWindowPopupCheckbox</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>10</X>
+                        <Y>175</Y>
+                </Location>
+                <Size>
+                        <CX>150</CX>
+                        <CY>20</CY>
+                </Size>
+                <Style_VScroll>false</Style_VScroll>
+                <Style_HScroll>false</Style_HScroll>
+                <Style_Transparent>false</Style_Transparent>
+                <Style_Checkbox>true</Style_Checkbox>
+                <Text>Pet Window Popup</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <ButtonDrawTemplate>
+                        <Normal>A_BigBtnNormal</Normal>
+                        <Pressed>A_BigBtnPressed</Pressed>
+                        <Flyby>A_BigBtnFlyby</Flyby>
+                        <Disabled>A_BigBtnDisabled</Disabled>
+                        <PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+                </ButtonDrawTemplate>
+        </Button>
+        <Button item="OGP_AllowContextMenusCheckbox">
+                <ScreenID>OGP_AllowContextMenusCheckbox</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>10</X>
+                        <Y>195</Y>
+                </Location>
+                <Size>
+                        <CX>150</CX>
+                        <CY>20</CY>
+                </Size>
+                <Style_VScroll>false</Style_VScroll>
+                <Style_HScroll>false</Style_HScroll>
+                <Style_Transparent>false</Style_Transparent>
+                <Style_Checkbox>true</Style_Checkbox>
+                <Text>Allow Context Menus</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <ButtonDrawTemplate>
+                        <Normal>A_BigBtnNormal</Normal>
+                        <Pressed>A_BigBtnPressed</Pressed>
+                        <Flyby>A_BigBtnFlyby</Flyby>
+                        <Disabled>A_BigBtnDisabled</Disabled>
+                        <PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+                </ButtonDrawTemplate>
+        </Button>
+        <!-- Sound realism value -->
+        <Label item="OGP_SoundRealismLabel">
+                <ScreenID>OGP_SoundRealismLabel</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>200</X>
+                        <Y>10</Y>
+                </Location>
+                <Size>
+                        <CX>150</CX>
+                        <CY>14</CY>
+                </Size>
+                <Text>Sound Realism</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <NoWrap>true</NoWrap>
+                <AlignCenter>false</AlignCenter>
+                <AlignRight>false</AlignRight>
+        </Label>
+        <Slider item="OGP_SoundRealismSlider">
+                <ScreenID>OGP_SoundRealismSlider</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>200</X>
+                        <Y>30</Y>
+                </Location>
+                <Size>
+                        <CX>100</CX>
+                        <CY>16</CY>
+                </Size>
+                <SliderArt>SDT_DefSlider</SliderArt>
+        </Slider>
+        <Label item="OGP_SoundRealismValueLabel">
+                <ScreenID>OGP_SoundRealismValueLabel</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>300</X>
+                        <Y>30</Y>
+                </Location>
+                <Size>
+                        <CX>50</CX>
+                        <CY>16</CY>
+                </Size>
+                <Text>0 %</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <NoWrap>true</NoWrap>
+                <AlignCenter>false</AlignCenter>
+                <AlignRight>true</AlignRight>
+        </Label>
+        <!-- Music volume value -->
+        <Label item="OGP_MusicVolumeLabel">
+                <ScreenID>OGP_MusicVolumeLabel</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>200</X>
+                        <Y>50</Y>
+                </Location>
+                <Size>
+                        <CX>150</CX>
+                        <CY>14</CY>
+                </Size>
+                <Text>Music Volume</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <NoWrap>true</NoWrap>
+                <AlignCenter>false</AlignCenter>
+                <AlignRight>false</AlignRight>
+        </Label>
+        <Slider item="OGP_MusicVolumeSlider">
+                <ScreenID>OGP_MusicVolumeSlider</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>200</X>
+                        <Y>70</Y>
+                </Location>
+                <Size>
+                        <CX>100</CX>
+                        <CY>16</CY>
+                </Size>
+                <SliderArt>SDT_DefSlider</SliderArt>
+        </Slider>
+        <Label item="OGP_MusicVolumeValueLabel">
+                <ScreenID>OGP_MusicVolumeValueLabel</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>300</X>
+                        <Y>70</Y>
+                </Location>
+                <Size>
+                        <CX>50</CX>
+                        <CY>16</CY>
+                </Size>
+                <Text>0 %</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <NoWrap>true</NoWrap>
+                <AlignCenter>false</AlignCenter>
+                <AlignRight>true</AlignRight>
+        </Label>
+        <!-- Sound volume value -->
+        <Label item="OGP_SoundVolumeLabel">
+                <ScreenID>OGP_SoundVolumeLabel</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>200</X>
+                        <Y>90</Y>
+                </Location>
+                <Size>
+                        <CX>150</CX>
+                        <CY>14</CY>
+                </Size>
+                <Text>Sound Volume</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <NoWrap>true</NoWrap>
+                <AlignCenter>false</AlignCenter>
+                <AlignRight>false</AlignRight>
+        </Label>
+        <Slider item="OGP_SoundVolumeSlider">
+                <ScreenID>OGP_SoundVolumeSlider</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>200</X>
+                        <Y>110</Y>
+                </Location>
+                <Size>
+                        <CX>100</CX>
+                        <CY>16</CY>
+                </Size>
+                <SliderArt>SDT_DefSlider</SliderArt>
+        </Slider>
+        <Label item="OGP_SoundVolumeValueLabel">
+                <ScreenID>OGP_SoundVolumeValueLabel</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>300</X>
+                        <Y>110</Y>
+                </Location>
+                <Size>
+                        <CX>50</CX>
+                        <CY>16</CY>
+                </Size>
+                <Text>0 %</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <NoWrap>true</NoWrap>
+                <AlignCenter>false</AlignCenter>
+                <AlignRight>true</AlignRight>
+        </Label>
+        <!-- Environment sounds -->
+        <Button item="OGP_EnvSoundsCheckbox">
+                <ScreenID>OGP_EnvSoundsCheckbox</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>200</X>
+                        <Y>130</Y>
+                </Location>
+                <Size>
+                        <CX>150</CX>
+                        <CY>20</CY>
+                </Size>
+                <Style_VScroll>false</Style_VScroll>
+                <Style_HScroll>false</Style_HScroll>
+                <Style_Transparent>false</Style_Transparent>
+                <Style_Checkbox>true</Style_Checkbox>
+                <Text>Environment Sounds</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <ButtonDrawTemplate>
+                        <Normal>A_BigBtnNormal</Normal>
+                        <Pressed>A_BigBtnPressed</Pressed>
+                        <Flyby>A_BigBtnFlyby</Flyby>
+                        <Disabled>A_BigBtnDisabled</Disabled>
+                        <PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+                </ButtonDrawTemplate>
+        </Button>
+        <!-- Combat Music -->
+        <Button item="OGP_CombatMusicCheckbox">
+                <ScreenID>OGP_CombatMusicCheckbox</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>200</X>
+                        <Y>155</Y>
+                </Location>
+                <Size>
+                        <CX>150</CX>
+                        <CY>20</CY>
+                </Size>
+                <Style_VScroll>false</Style_VScroll>
+                <Style_HScroll>false</Style_HScroll>
+                <Style_Transparent>false</Style_Transparent>
+                <Style_Checkbox>true</Style_Checkbox>
+                <Text>Combat Music</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <ButtonDrawTemplate>
+                        <Normal>A_BigBtnNormal</Normal>
+                        <Pressed>A_BigBtnPressed</Pressed>
+                        <Flyby>A_BigBtnFlyby</Flyby>
+                        <Disabled>A_BigBtnDisabled</Disabled>
+                        <PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+                </ButtonDrawTemplate>
+        </Button>
+        <!-- General options page -->
+        <Page item="OptionsGeneralPage">
+                <ScreenID>OptionsGeneralPage</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <!-- Pages are sized and positioned by their parent tab -->
+                <Style_VScroll>false</Style_VScroll>
+                <Style_HScroll>false</Style_HScroll>
+                <Style_Transparent>false</Style_Transparent>
+                <TooltipReference/>
+                <DrawTemplate>WDT_Def</DrawTemplate>
+                <TabText>General</TabText>
+                <TabTextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TabTextColor>
+                <TabTextActiveColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>0</B>
+                </TabTextActiveColor>
+                <Style_Sizable>true</Style_Sizable>
+                <Pieces>OGP_FastItemDestroyCheckbox</Pieces>
+                <Pieces>OGP_GuildInvitesCheckbox</Pieces>
+                <Pieces>OGP_LootAutosplitCheckbox</Pieces>
+                <Pieces>OGP_AnonymousCheckbox</Pieces>
+                <Pieces>OGP_RoleplayingCheckbox</Pieces>
+                <Pieces>OGP_PetWindowPopupCheckbox</Pieces>
+                <Pieces>OGP_AllowContextMenusCheckbox</Pieces>
+                <Pieces>OGP_EnvSoundsCheckbox</Pieces>
+                <Pieces>OGP_CombatMusicCheckbox</Pieces>
+                <Pieces>OGP_LoadSkinButton</Pieces>
+                <Pieces>OGP_EQPlayersAutoUpdateButton</Pieces>
+                <Pieces>OGP_SystemInfoButton</Pieces>
+                <Pieces>OGP_LeftClickHelpText</Pieces>
+                <Pieces>OGP_UseTellWindowsCheckbox</Pieces>
+                <Pieces>OGP_AllowAutoDuckCheckbox</Pieces>
+                <Pieces>OGP_AllowAutoStandCheckbox</Pieces>
+                <Pieces>OGP_AANoConfirmCheckbox</Pieces>
+                <Pieces>OGP_AutojoinCheckbox</Pieces>
+                <Pieces>OGP_AutoConsentGroupCheckbox</Pieces>
+                <Pieces>OGP_AutoConsentRaidCheckbox</Pieces>
+                <Pieces>OGP_AutoConsentGuildCheckbox</Pieces>
+                <Pieces>OGP_AdvMerchantNoConfirmCheckbox</Pieces>
+                <Pieces>OGP_LeadershipNoConfirmCheckbox</Pieces>
+                <Pieces>OGP_SoundRealismLabel</Pieces>
+                <Pieces>OGP_SoundRealismSlider</Pieces>
+                <Pieces>OGP_SoundRealismValueLabel</Pieces>
+                <Pieces>OGP_MusicVolumeLabel</Pieces>
+                <Pieces>OGP_MusicVolumeSlider</Pieces>
+                <Pieces>OGP_MusicVolumeValueLabel</Pieces>
+                <Pieces>OGP_SoundVolumeLabel</Pieces>
+                <Pieces>OGP_SoundVolumeSlider</Pieces>
+                <Pieces>OGP_SoundVolumeValueLabel</Pieces>
+                <Pieces>OGP_ItemDroppingLabel</Pieces>
+                <Pieces>OGP_PlayerTradeLabel</Pieces>
+                <Pieces>OGP_FontLabel</Pieces>
+                <Pieces>OGP_CurrentFont</Pieces>
+                <Pieces>OGP_ChangeFont</Pieces>
+                <Pieces>OGP_FontSelector</Pieces>
+                <Pieces>OGP_PlayerTradeCombobox</Pieces>
+                <Pieces>OGP_ItemDroppingCombobox</Pieces>
+                <Location>
+                        <X>0</X>
+                        <Y>22</Y>
+                </Location>
+                <Size>
+                        <CX>387</CX>
+                        <CY>402</CY>
+                </Size>
+        </Page>
+        <!-- *********** Options Tab Window, Display Options Page *********** -->
+        <!-- PCNames -->
+        <Button item="ODP_PCNamesCheckbox">
+                <ScreenID>ODP_PCNamesCheckbox</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>10</X>
+                        <Y>12</Y>
+                </Location>
+                <Size>
+                        <CX>150</CX>
+                        <CY>18</CY>
+                </Size>
+                <Style_VScroll>false</Style_VScroll>
+                <Style_HScroll>false</Style_HScroll>
+                <Style_Transparent>false</Style_Transparent>
+                <Style_Checkbox>true</Style_Checkbox>
+                <Text>Show PC Names</Text>
+                <TooltipReference>Show/hide the names over other players.</TooltipReference>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <ButtonDrawTemplate>
+                        <Normal>A_BigBtnNormal</Normal>
+                        <Pressed>A_BigBtnPressed</Pressed>
+                        <Flyby>A_BigBtnFlyby</Flyby>
+                        <Disabled>A_BigBtnDisabled</Disabled>
+                        <PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+                </ButtonDrawTemplate>
+        </Button>
+        <!-- NPCNames   -->
+        <Button item="ODP_NPCNamesCheckbox">
+                <ScreenID>ODP_NPCNamesCheckbox</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>10</X>
+                        <Y>30</Y>
+                </Location>
+                <Size>
+                        <CX>150</CX>
+                        <CY>18</CY>
+                </Size>
+                <Style_VScroll>false</Style_VScroll>
+                <Style_HScroll>false</Style_HScroll>
+                <Style_Transparent>false</Style_Transparent>
+                <Style_Checkbox>true</Style_Checkbox>
+                <Text>Show NPC Names</Text>
+                <TooltipReference>Show/hide the names over NPCs.</TooltipReference>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <ButtonDrawTemplate>
+                        <Normal>A_BigBtnNormal</Normal>
+                        <Pressed>A_BigBtnPressed</Pressed>
+                        <Flyby>A_BigBtnFlyby</Flyby>
+                        <Disabled>A_BigBtnDisabled</Disabled>
+                        <PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+                </ButtonDrawTemplate>
+        </Button>
+        <!-- Show 3D Target Ring -->
+        <Button item="ODP_ShowTargetRingCheckbox">
+                <ScreenID>ODP_ShowTargetRingCheckbox</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>10</X>
+                        <Y>48</Y>
+                </Location>
+                <Size>
+                        <CX>150</CX>
+                        <CY>18</CY>
+                </Size>
+                <Style_VScroll>false</Style_VScroll>
+                <Style_HScroll>false</Style_HScroll>
+                <Style_Transparent>false</Style_Transparent>
+                <Style_Checkbox>true</Style_Checkbox>
+                <Text>Show 3D Target Ring</Text>
+                <TooltipReference>A colored ring appears around your current target's feet.</TooltipReference>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <ButtonDrawTemplate>
+                        <Normal>A_BigBtnNormal</Normal>
+                        <Pressed>A_BigBtnPressed</Pressed>
+                        <Flyby>A_BigBtnFlyby</Flyby>
+                        <Disabled>A_BigBtnDisabled</Disabled>
+                        <PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+                </ButtonDrawTemplate>
+        </Button>
+        <!-- Level of Detail -->
+        <Button item="ODP_LevelOfDetailCheckbox">
+                <ScreenID>ODP_LevelOfDetailCheckbox</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>10</X>
+                        <Y>66</Y>
+                </Location>
+                <Size>
+                        <CX>150</CX>
+                        <CY>18</CY>
+                </Size>
+                <Style_VScroll>false</Style_VScroll>
+                <Style_HScroll>false</Style_HScroll>
+                <Style_Transparent>false</Style_Transparent>
+                <Style_Checkbox>true</Style_Checkbox>
+                <Text>Level of Detail</Text>
+                <TooltipReference>Some models adjust their detail depending on their distance from you.</TooltipReference>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <ButtonDrawTemplate>
+                        <Normal>A_BigBtnNormal</Normal>
+                        <Pressed>A_BigBtnPressed</Pressed>
+                        <Flyby>A_BigBtnFlyby</Flyby>
+                        <Disabled>A_BigBtnDisabled</Disabled>
+                        <PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+                </ButtonDrawTemplate>
+        </Button>
+        <!-- Toggle Show Helm -->
+        <Button item="ODP_ShowHelmCheckbox">
+                <ScreenID>ODP_ShowHelmCheckbox</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>10</X>
+                        <Y>84</Y>
+                </Location>
+                <Size>
+                        <CX>150</CX>
+                        <CY>18</CY>
+                </Size>
+                <Style_VScroll>false</Style_VScroll>
+                <Style_HScroll>false</Style_HScroll>
+                <Style_Transparent>false</Style_Transparent>
+                <Style_Checkbox>true</Style_Checkbox>
+                <Text>Show My Helm</Text>
+                <TooltipReference>Toggle whether your helm is visible or not.</TooltipReference>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <ButtonDrawTemplate>
+                        <Normal>A_BigBtnNormal</Normal>
+                        <Pressed>A_BigBtnPressed</Pressed>
+                        <Flyby>A_BigBtnFlyby</Flyby>
+                        <Disabled>A_BigBtnDisabled</Disabled>
+                        <PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+                </ButtonDrawTemplate>
+        </Button>
+        <!-- Switch to fullscreen mode. -->
+        <Button item="ODP_SetFullscreenButton">
+                <ScreenID>ODP_SetFullscreenButton</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>10</X>
+                        <Y>106</Y>
+                </Location>
+                <Size>
+                        <CX>150</CX>
+                        <CY>18</CY>
+                </Size>
+                <Style_VScroll>false</Style_VScroll>
+                <Style_HScroll>false</Style_HScroll>
+                <Style_Transparent>false</Style_Transparent>
+                <Text>Switch to Fullscreen</Text>
+                <TooltipReference>Set the current window mode to be full screen.</TooltipReference>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <ButtonDrawTemplate>
+                        <Normal>A_BigBtnNormal</Normal>
+                        <Pressed>A_BigBtnPressed</Pressed>
+                        <Flyby>A_BigBtnFlyby</Flyby>
+                        <Disabled>A_BigBtnDisabled</Disabled>
+                        <PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+                </ButtonDrawTemplate>
+        </Button>
+        <!-- Switch to windowed mode. -->
+        <Button item="ODP_SetWindowedButton">
+                <ScreenID>ODP_SetWindowedButton</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>10</X>
+                        <Y>106</Y>
+                </Location>
+                <Size>
+                        <CX>150</CX>
+                        <CY>18</CY>
+                </Size>
+                <Style_VScroll>false</Style_VScroll>
+                <Style_HScroll>false</Style_HScroll>
+                <Style_Transparent>false</Style_Transparent>
+                <Text>Switch to Windowed</Text>
+                <TooltipReference>Set the current window mode to be windowed.</TooltipReference>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <ButtonDrawTemplate>
+                        <Normal>A_BigBtnNormal</Normal>
+                        <Pressed>A_BigBtnPressed</Pressed>
+                        <Flyby>A_BigBtnFlyby</Flyby>
+                        <Disabled>A_BigBtnDisabled</Disabled>
+                        <PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+                </ButtonDrawTemplate>
+        </Button>
+        <!-- Video modes. -->
+        <Button item="ODP_VideoModesButton">
+                <ScreenID>ODP_VideoModesButton</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>10</X>
+                        <Y>124</Y>
+                </Location>
+                <Size>
+                        <CX>150</CX>
+                        <CY>20</CY>
+                </Size>
+                <Style_VScroll>false</Style_VScroll>
+                <Style_HScroll>false</Style_HScroll>
+                <Style_Transparent>false</Style_Transparent>
+                <Text>Video Modes</Text>
+                <TooltipReference>Select your screen's resolution, color, and refresh rate settings.</TooltipReference>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <ButtonDrawTemplate>
+                        <Normal>A_BigBtnNormal</Normal>
+                        <Pressed>A_BigBtnPressed</Pressed>
+                        <Flyby>A_BigBtnFlyby</Flyby>
+                        <Disabled>A_BigBtnDisabled</Disabled>
+                        <PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+                </ButtonDrawTemplate>
+        </Button>
+        <!-- Delay before fading slider -->
+        <Label item="ODP_FadeDelayLabel">
+                <ScreenID>ODP_FadeDelayLabel</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>10</X>
+                        <Y>145</Y>
+                </Location>
+                <Size>
+                        <CX>150</CX>
+                        <CY>14</CY>
+                </Size>
+                <Text>Fade Delay (seconds)</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <NoWrap>true</NoWrap>
+                <AlignCenter>false</AlignCenter>
+                <AlignRight>false</AlignRight>
+        </Label>
+        <Slider item="ODP_FadeDelaySlider">
+                <ScreenID>ODP_FadeDelaySlider</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>10</X>
+                        <Y>165</Y>
+                </Location>
+                <Size>
+                        <CX>100</CX>
+                        <CY>16</CY>
+                </Size>
+                <SliderArt>SDT_DefSlider</SliderArt>
+        </Slider>
+        <Label item="ODP_FadeDelayValueLabel">
+                <ScreenID>ODP_FadeDelayValueLabel</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>110</X>
+                        <Y>165</Y>
+                </Location>
+                <Size>
+                        <CX>50</CX>
+                        <CY>16</CY>
+                </Size>
+                <Text>0.0</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <NoWrap>true</NoWrap>
+                <AlignCenter>false</AlignCenter>
+                <AlignRight>true</AlignRight>
+        </Label>
+        <!-- fade duration slider -->
+        <Label item="ODP_FadeDurationLabel">
+                <ScreenID>ODP_FadeDurationLabel</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>10</X>
+                        <Y>185</Y>
+                </Location>
+                <Size>
+                        <CX>150</CX>
+                        <CY>14</CY>
+                </Size>
+                <Text>Fade Duration (seconds)</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <NoWrap>true</NoWrap>
+                <AlignCenter>false</AlignCenter>
+                <AlignRight>false</AlignRight>
+        </Label>
+        <Slider item="ODP_FadeDurationSlider">
+                <ScreenID>ODP_FadeDurationSlider</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>10</X>
+                        <Y>205</Y>
+                </Location>
+                <Size>
+                        <CX>100</CX>
+                        <CY>16</CY>
+                </Size>
+                <SliderArt>SDT_DefSlider</SliderArt>
+        </Slider>
+        <Label item="ODP_FadeDurationValueLabel">
+                <ScreenID>ODP_FadeDurationValueLabel</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>110</X>
+                        <Y>205</Y>
+                </Location>
+                <Size>
+                        <CX>50</CX>
+                        <CY>16</CY>
+                </Size>
+                <Text>0.5</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <NoWrap>true</NoWrap>
+                <AlignCenter>false</AlignCenter>
+                <AlignRight>true</AlignRight>
+        </Label>
+        <!-- Window alpha slider -->
+        <Label item="ODP_WindowAlphaLabel">
+                <ScreenID>ODP_WindowAlphaLabel</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>10</X>
+                        <Y>225</Y>
+                </Location>
+                <Size>
+                        <CX>150</CX>
+                        <CY>14</CY>
+                </Size>
+                <Text>Window Transparency</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <NoWrap>true</NoWrap>
+                <AlignCenter>false</AlignCenter>
+                <AlignRight>false</AlignRight>
+        </Label>
+        <Slider item="ODP_WindowAlphaSlider">
+                <ScreenID>ODP_WindowAlphaSlider</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>10</X>
+                        <Y>245</Y>
+                </Location>
+                <Size>
+                        <CX>100</CX>
+                        <CY>16</CY>
+                </Size>
+                <SliderArt>SDT_DefSlider</SliderArt>
+        </Slider>
+        <Label item="ODP_WindowAlphaValueLabel">
+                <ScreenID>ODP_WindowAlphaValueLabel</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>110</X>
+                        <Y>245</Y>
+                </Location>
+                <Size>
+                        <CX>50</CX>
+                        <CY>16</CY>
+                </Size>
+                <Text>0 %</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <NoWrap>true</NoWrap>
+                <AlignCenter>false</AlignCenter>
+                <AlignRight>true</AlignRight>
+        </Label>
+        <!-- Fade-to alpha slider -->
+        <Label item="ODP_FadeToAlphaLabel">
+                <ScreenID>ODP_FadeToAlphaLabel</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>10</X>
+                        <Y>265</Y>
+                </Location>
+                <Size>
+                        <CX>150</CX>
+                        <CY>14</CY>
+                </Size>
+                <Text>Fade-to Transparency</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <NoWrap>true</NoWrap>
+                <AlignCenter>false</AlignCenter>
+                <AlignRight>false</AlignRight>
+        </Label>
+        <Label item="ODP_MaxFPSLabel">
+                <ScreenID>ODP_MaxFPSLabel</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>10</X>
+                        <Y>305</Y>
+                </Location>
+                <Size>
+                        <CX>150</CX>
+                        <CY>14</CY>
+                </Size>
+                <Text>Max. Frames Per Second</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <NoWrap>true</NoWrap>
+                <AlignCenter>false</AlignCenter>
+                <AlignRight>false</AlignRight>
+        </Label>
+        <Slider item="ODP_FadeToAlphaSlider">
+                <ScreenID>ODP_FadeToAlphaSlider</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>10</X>
+                        <Y>285</Y>
+                </Location>
+                <Size>
+                        <CX>100</CX>
+                        <CY>16</CY>
+                </Size>
+                <SliderArt>SDT_DefSlider</SliderArt>
+        </Slider>
+        <Label item="ODP_FadeToAlphaValueLabel">
+                <ScreenID>ODP_FadeToAlphaValueLabel</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>110</X>
+                        <Y>285</Y>
+                </Location>
+                <Size>
+                        <CX>50</CX>
+                        <CY>16</CY>
+                </Size>
+                <Text>0 %</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <NoWrap>true</NoWrap>
+                <AlignCenter>false</AlignCenter>
+                <AlignRight>true</AlignRight>
+        </Label>
+        <!-- Max framrate slider -->
+        <Slider item="ODP_MaxFPSSlider">
+                <ScreenID>ODP_MaxFPSSlider</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>10</X>
+                        <Y>325</Y>
+                </Location>
+                <Size>
+                        <CX>100</CX>
+                        <CY>16</CY>
+                </Size>
+                <SliderArt>SDT_DefSlider</SliderArt>
+        </Slider>
+        <Label item="ODP_MaxFPSSliderValueLabel">
+                <ScreenID>ODP_MaxFPSSliderValueLabel</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>110</X>
+                        <Y>325</Y>
+                </Location>
+                <Size>
+                        <CX>50</CX>
+                        <CY>16</CY>
+                </Size>
+                <Text>10</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <NoWrap>true</NoWrap>
+                <AlignCenter>false</AlignCenter>
+                <AlignRight>true</AlignRight>
+        </Label>
+        <!-- LOD Bias slider -->
+        <Label item="ODP_LODBiasLabel">
+                <ScreenID>ODP_LODBiasLabel</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>10</X>
+                        <Y>345</Y>
+                </Location>
+                <Size>
+                        <CX>150</CX>
+                        <CY>14</CY>
+                </Size>
+                <Text>LOD Bias</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <NoWrap>true</NoWrap>
+                <AlignCenter>false</AlignCenter>
+                <AlignRight>false</AlignRight>
+        </Label>
+        <Slider item="ODP_LODBiasSlider">
+                <ScreenID>ODP_LODBiasSlider</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>10</X>
+                        <Y>365</Y>
+                </Location>
+                <Size>
+                        <CX>100</CX>
+                        <CY>16</CY>
+                </Size>
+                <SliderArt>SDT_DefSlider</SliderArt>
+        </Slider>
+        <Label item="ODP_LODBiasSliderValueLabel">
+                <ScreenID>ODP_LODBiasSliderValueLabel</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>110</X>
+                        <Y>365</Y>
+                </Location>
+                <Size>
+                        <CX>70</CX>
+                        <CY>16</CY>
+                </Size>
+                <Text>10</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <NoWrap>true</NoWrap>
+                <AlignCenter>false</AlignCenter>
+                <AlignRight>true</AlignRight>
+        </Label>
+        <!-- Load Screen -->
+        <Label item="ODP_LoadScreenLabel">
+                <ScreenID>ODP_LoadScreenLabel</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>200</X>
+                        <Y>13</Y>
+                </Location>
+                <Size>
+                        <CX>150</CX>
+                        <CY>14</CY>
+                </Size>
+                <Text>Load Screen</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <NoWrap>true</NoWrap>
+                <AlignCenter>false</AlignCenter>
+                <AlignRight>false</AlignRight>
+        </Label>
+        <Combobox item="ODP_LoadScreenCombobox">
+                <ScreenID>ODP_LoadScreenCombobox</ScreenID>
+                <DrawTemplate>WDT_Inner</DrawTemplate>
+                <Location>
+                        <X>272</X>
+                        <Y>8</Y>
+                </Location>
+                <Size>
+                        <CX>105</CX>
+                        <CY>24</CY>
+                </Size>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <ListHeight>200</ListHeight>
+                <Button>BDT_Combo</Button>
+                <Style_Border>true</Style_Border>
+                <Choices>None</Choices>
+                <Choices>Loading Art</Choices>
+        </Combobox>
+        <!-- Sky Layering -->
+        <Label item="ODP_SkyLabel">
+                <ScreenID>ODP_SkyLabel</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>200</X>
+                        <Y>40</Y>
+                </Location>
+                <Size>
+                        <CX>150</CX>
+                        <CY>14</CY>
+                </Size>
+                <Text>Sky Type</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <NoWrap>true</NoWrap>
+                <AlignCenter>false</AlignCenter>
+                <AlignRight>false</AlignRight>
+        </Label>
+        <Combobox item="ODP_SkyCombobox">
+                <ScreenID>ODP_SkyCombobox</ScreenID>
+                <DrawTemplate>WDT_Inner</DrawTemplate>
+                <Location>
+                        <X>272</X>
+                        <Y>35</Y>
+                </Location>
+                <Size>
+                        <CX>105</CX>
+                        <CY>24</CY>
+                </Size>
+                <ListHeight>100</ListHeight>
+                <Button>BDT_Combo</Button>
+                <Style_Border>true</Style_Border>
+                <Choices>Off</Choices>
+                <Choices>Simple</Choices>
+                <Choices>Complex</Choices>
+        </Combobox>
+        <!-- Gamma Slider -->
+        <Label item="ODP_GammaLabel">
+                <ScreenID>ODP_GammaLabel</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>200</X>
+                        <Y>69</Y>
+                </Location>
+                <Size>
+                        <CX>150</CX>
+                        <CY>14</CY>
+                </Size>
+                <Text>Gamma</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <NoWrap>true</NoWrap>
+                <AlignCenter>false</AlignCenter>
+                <AlignRight>false</AlignRight>
+        </Label>
+        <Slider item="ODP_GammaSlider">
+                <ScreenID>ODP_GammaSlider</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>200</X>
+                        <Y>89</Y>
+                </Location>
+                <Size>
+                        <CX>100</CX>
+                        <CY>16</CY>
+                </Size>
+                <SliderArt>SDT_DefSlider</SliderArt>
+        </Slider>
+        <Label item="ODP_GammaValueLabel">
+                <ScreenID>ODP_GammaValueLabel</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>300</X>
+                        <Y>89</Y>
+                </Location>
+                <Size>
+                        <CX>50</CX>
+                        <CY>16</CY>
+                </Size>
+                <Text>0 %</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <NoWrap>true</NoWrap>
+                <AlignCenter>false</AlignCenter>
+                <AlignRight>true</AlignRight>
+        </Label>
+        <!-- Clip Plane Slider -->
+        <Label item="ODP_ClipPlaneLabel">
+                <ScreenID>ODP_ClipPlaneLabel</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>200</X>
+                        <Y>109</Y>
+                </Location>
+                <Size>
+                        <CX>150</CX>
+                        <CY>14</CY>
+                </Size>
+                <Text>Far Clip Plane</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <NoWrap>true</NoWrap>
+                <AlignCenter>false</AlignCenter>
+                <AlignRight>false</AlignRight>
+        </Label>
+        <Slider item="ODP_ClipPlaneSlider">
+                <ScreenID>ODP_ClipPlaneSlider</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>200</X>
+                        <Y>129</Y>
+                </Location>
+                <Size>
+                        <CX>100</CX>
+                        <CY>16</CY>
+                </Size>
+                <SliderArt>SDT_DefSlider</SliderArt>
+        </Slider>
+        <Label item="ODP_ClipPlaneValueLabel">
+                <ScreenID>ODP_ClipPlaneValueLabel</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>300</X>
+                        <Y>129</Y>
+                </Location>
+                <Size>
+                        <CX>50</CX>
+                        <CY>16</CY>
+                </Size>
+                <Text>0 %</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <NoWrap>true</NoWrap>
+                <AlignCenter>false</AlignCenter>
+                <AlignRight>true</AlignRight>
+        </Label>
+        <!-- Particles -->
+        <Label item="ODP_ParticlesLabel">
+                <ScreenID>ODP_ParticlesLabel</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>200</X>
+                        <Y>160</Y>
+                </Location>
+                <Size>
+                        <CX>150</CX>
+                        <CY>14</CY>
+                </Size>
+                <Text>Particles</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <NoWrap>true</NoWrap>
+                <AlignCenter>false</AlignCenter>
+                <AlignRight>false</AlignRight>
+        </Label>
+        <!-- Spell Particles Near Clip Plane-->
+        <Label item="ODP_SpellParticlesNearClipLabel">
+                <ScreenID>ODP_SpellParticlesNearClipLabel</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>10</X>
+                        <Y>10</Y>
+                </Location>
+                <Size>
+                        <CX>100</CX>
+                        <CY>14</CY>
+                </Size>
+                <Text>Near Clip:</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <NoWrap>true</NoWrap>
+                <AlignCenter>false</AlignCenter>
+                <AlignRight>false</AlignRight>
+        </Label>
+        <Combobox item="ODP_SpellParticlesNearClipCombobox">
+                <ScreenID>ODP_SpellParticlesNearClipCombobox</ScreenID>
+                <DrawTemplate>WDT_Inner</DrawTemplate>
+                <Location>
+                        <X>75</X>
+                        <Y>6</Y>
+                </Location>
+                <Size>
+                        <CX>100</CX>
+                        <CY>24</CY>
+                </Size>
+                <ListHeight>100</ListHeight>
+                <Button>BDT_Combo</Button>
+                <Style_Border>true</Style_Border>
+                <Choices>Near</Choices>
+                <Choices>Medium</Choices>
+                <Choices>Far</Choices>
+                <Choices>Farthest</Choices>
+        </Combobox>
+        <!-- Spell Particles Density -->
+        <Label item="ODP_SpellParticlesDensityLabel">
+                <ScreenID>ODP_SpellParticlesDensityLabel</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>10</X>
+                        <Y>40</Y>
+                </Location>
+                <Size>
+                        <CX>100</CX>
+                        <CY>14</CY>
+                </Size>
+                <Text>Density:</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <NoWrap>true</NoWrap>
+                <AlignCenter>false</AlignCenter>
+                <AlignRight>false</AlignRight>
+        </Label>
+        <Combobox item="ODP_SpellParticlesDensityCombobox">
+                <ScreenID>ODP_SpellParticlesDensityCombobox</ScreenID>
+                <DrawTemplate>WDT_Inner</DrawTemplate>
+                <Location>
+                        <X>75</X>
+                        <Y>36</Y>
+                </Location>
+                <Size>
+                        <CX>100</CX>
+                        <CY>24</CY>
+                </Size>
+                <ListHeight>100</ListHeight>
+                <Button>BDT_Combo</Button>
+                <Style_Border>true</Style_Border>
+                <Choices>Off</Choices>
+                <Choices>Low</Choices>
+                <Choices>Medium</Choices>
+                <Choices>High</Choices>
+        </Combobox>
+        <!-- Spell Particles Filter -->
+        <Label item="ODP_SpellParticlesFilterLabel">
+                <ScreenID>ODP_SpellParticlesFilterLabel</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>10</X>
+                        <Y>70</Y>
+                </Location>
+                <Size>
+                        <CX>100</CX>
+                        <CY>14</CY>
+                </Size>
+                <Text>On For:</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <NoWrap>true</NoWrap>
+                <AlignCenter>false</AlignCenter>
+                <AlignRight>false</AlignRight>
+        </Label>
+        <Combobox item="ODP_SpellParticlesFilterCombobox">
+                <ScreenID>ODP_SpellParticlesFilterCombobox</ScreenID>
+                <DrawTemplate>WDT_Inner</DrawTemplate>
+                <Location>
+                        <X>75</X>
+                        <Y>66</Y>
+                </Location>
+                <Size>
+                        <CX>100</CX>
+                        <CY>24</CY>
+                </Size>
+                <ListHeight>120</ListHeight>
+                <Button>BDT_Combo</Button>
+                <Style_Border>true</Style_Border>
+                <Choices>My spells</Choices>
+                <Choices>Group spells</Choices>
+                <Choices>Raid spells</Choices>
+                <Choices>All PCs</Choices>
+                <Choices>Me + NPC</Choices>
+                <Choices>Group + NPC</Choices>
+                <Choices>Raid + NPC</Choices>
+                <Choices>All spells</Choices>
+        </Combobox>
+        <!-- Spell Particles Opacity Slider -->
+        <Label item="ODP_SpellParticlesOpacityLabel">
+                <ScreenID>ODP_SpellParticlesOpacityLabel</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>10</X>
+                        <Y>100</Y>
+                </Location>
+                <Size>
+                        <CX>150</CX>
+                        <CY>14</CY>
+                </Size>
+                <Text>Opacity</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <NoWrap>true</NoWrap>
+                <AlignCenter>false</AlignCenter>
+                <AlignRight>false</AlignRight>
+        </Label>
+        <Slider item="ODP_SpellParticlesOpacitySlider">
+                <ScreenID>ODP_SpellParticlesOpacitySlider</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>10</X>
+                        <Y>120</Y>
+                </Location>
+                <Size>
+                        <CX>100</CX>
+                        <CY>16</CY>
+                </Size>
+                <SliderArt>SDT_DefSlider</SliderArt>
+        </Slider>
+        <Label item="ODP_SpellParticlesOpacityValueLabel">
+                <ScreenID>ODP_SpellParticlesOpacityValueLabel</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>110</X>
+                        <Y>120</Y>
+                </Location>
+                <Size>
+                        <CX>50</CX>
+                        <CY>16</CY>
+                </Size>
+                <Text>0 %</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <NoWrap>true</NoWrap>
+                <AlignCenter>false</AlignCenter>
+                <AlignRight>true</AlignRight>
+        </Label>
+        <Page item="SpellParticlesPage">
+                <ScreenID>SpellParticlesPage</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <!-- Pages are sized and positioned by their parent tab -->
+                <Style_VScroll>false</Style_VScroll>
+                <Style_HScroll>false</Style_HScroll>
+                <Style_Transparent>false</Style_Transparent>
+                <DrawTemplate>WDT_Def</DrawTemplate>
+                <TabText>Spell</TabText>
+                <TabTextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TabTextColor>
+                <TabTextActiveColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>0</B>
+                </TabTextActiveColor>
+                <Style_Sizable>true</Style_Sizable>
+                <Pieces>ODP_SpellParticlesNearClipLabel</Pieces>
+                <Pieces>ODP_SpellParticlesDensityLabel</Pieces>
+                <Pieces>ODP_SpellParticlesFilterLabel</Pieces>
+                <Pieces>ODP_SpellParticlesOpacityLabel</Pieces>
+                <Pieces>ODP_SpellParticlesOpacitySlider</Pieces>
+                <Pieces>ODP_SpellParticlesOpacityValueLabel</Pieces>
+                <Pieces>ODP_SpellParticlesFilterCombobox</Pieces>
+                <Pieces>ODP_SpellParticlesDensityCombobox</Pieces>
+                <Pieces>ODP_SpellParticlesNearClipCombobox</Pieces>
+        </Page>
+        <!-- Environment Particles Near Clip Plane-->
+        <Label item="ODP_EnvironmentParticlesNearClipLabel">
+                <ScreenID>ODP_EnvironmentParticlesNearClipLabel</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>10</X>
+                        <Y>10</Y>
+                </Location>
+                <Size>
+                        <CX>100</CX>
+                        <CY>14</CY>
+                </Size>
+                <Text>Near Clip:</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <NoWrap>true</NoWrap>
+                <AlignCenter>false</AlignCenter>
+                <AlignRight>false</AlignRight>
+        </Label>
+        <Combobox item="ODP_EnvironmentParticlesNearClipCombobox">
+                <ScreenID>ODP_EnvironmentParticlesNearClipCombobox</ScreenID>
+                <DrawTemplate>WDT_Inner</DrawTemplate>
+                <Location>
+                        <X>75</X>
+                        <Y>6</Y>
+                </Location>
+                <Size>
+                        <CX>100</CX>
+                        <CY>24</CY>
+                </Size>
+                <ListHeight>100</ListHeight>
+                <Button>BDT_Combo</Button>
+                <Style_Border>true</Style_Border>
+                <Choices>Near</Choices>
+                <Choices>Medium</Choices>
+                <Choices>Far</Choices>
+                <Choices>Farthest</Choices>
+        </Combobox>
+        <!-- Environment Particles Density -->
+        <Label item="ODP_EnvironmentParticlesDensityLabel">
+                <ScreenID>ODP_EnvironmentParticlesDensityLabel</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>10</X>
+                        <Y>40</Y>
+                </Location>
+                <Size>
+                        <CX>100</CX>
+                        <CY>14</CY>
+                </Size>
+                <Text>Density:</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <NoWrap>true</NoWrap>
+                <AlignCenter>false</AlignCenter>
+                <AlignRight>false</AlignRight>
+        </Label>
+        <Combobox item="ODP_EnvironmentParticlesDensityCombobox">
+                <ScreenID>ODP_EnvironmentParticlesDensityCombobox</ScreenID>
+                <DrawTemplate>WDT_Inner</DrawTemplate>
+                <Location>
+                        <X>75</X>
+                        <Y>36</Y>
+                </Location>
+                <Size>
+                        <CX>100</CX>
+                        <CY>24</CY>
+                </Size>
+                <ListHeight>100</ListHeight>
+                <Button>BDT_Combo</Button>
+                <Style_Border>true</Style_Border>
+                <Choices>Off</Choices>
+                <Choices>Low</Choices>
+                <Choices>Medium</Choices>
+                <Choices>High</Choices>
+        </Combobox>
+        <!-- Environment Particles Opacity Slider -->
+        <Label item="ODP_EnvironmentParticlesOpacityLabel">
+                <ScreenID>ODP_EnvironmentParticlesOpacityLabel</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>10</X>
+                        <Y>100</Y>
+                </Location>
+                <Size>
+                        <CX>150</CX>
+                        <CY>14</CY>
+                </Size>
+                <Text>Opacity</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <NoWrap>true</NoWrap>
+                <AlignCenter>false</AlignCenter>
+                <AlignRight>false</AlignRight>
+        </Label>
+        <Slider item="ODP_EnvironmentParticlesOpacitySlider">
+                <ScreenID>ODP_EnvironmentParticlesOpacitySlider</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>10</X>
+                        <Y>120</Y>
+                </Location>
+                <Size>
+                        <CX>100</CX>
+                        <CY>16</CY>
+                </Size>
+                <SliderArt>SDT_DefSlider</SliderArt>
+        </Slider>
+        <Label item="ODP_EnvironmentParticlesOpacityValueLabel">
+                <ScreenID>ODP_EnvironmentParticlesOpacityValueLabel</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>110</X>
+                        <Y>120</Y>
+                </Location>
+                <Size>
+                        <CX>50</CX>
+                        <CY>16</CY>
+                </Size>
+                <Text>0 %</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <NoWrap>true</NoWrap>
+                <AlignCenter>false</AlignCenter>
+                <AlignRight>true</AlignRight>
+        </Label>
+        <Page item="EnvironmentParticlesPage">
+                <ScreenID>EnvironmentParticlesPage</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <!-- Pages are sized and positioned by their parent tab -->
+                <Style_VScroll>false</Style_VScroll>
+                <Style_HScroll>false</Style_HScroll>
+                <Style_Transparent>false</Style_Transparent>
+                <DrawTemplate>WDT_Def</DrawTemplate>
+                <TabText>Env</TabText>
+                <TabTextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TabTextColor>
+                <TabTextActiveColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>0</B>
+                </TabTextActiveColor>
+                <Style_Sizable>true</Style_Sizable>
+                <Pieces>ODP_EnvironmentParticlesNearClipLabel</Pieces>
+                <Pieces>ODP_EnvironmentParticlesDensityLabel</Pieces>
+                <Pieces>ODP_EnvironmentParticlesOpacityLabel</Pieces>
+                <Pieces>ODP_EnvironmentParticlesOpacitySlider</Pieces>
+                <Pieces>ODP_EnvironmentParticlesOpacityValueLabel</Pieces>
+                <Pieces>ODP_EnvironmentParticlesDensityCombobox</Pieces>
+                <Pieces>ODP_EnvironmentParticlesNearClipCombobox</Pieces>
+        </Page>
+        <!-- Actor Particles Near Clip Plane-->
+        <Label item="ODP_ActorParticlesNearClipLabel">
+                <ScreenID>ODP_ActorParticlesNearClipLabel</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>10</X>
+                        <Y>10</Y>
+                </Location>
+                <Size>
+                        <CX>100</CX>
+                        <CY>14</CY>
+                </Size>
+                <Text>Near Clip:</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <NoWrap>true</NoWrap>
+                <AlignCenter>false</AlignCenter>
+                <AlignRight>false</AlignRight>
+        </Label>
+        <Combobox item="ODP_ActorParticlesNearClipCombobox">
+                <ScreenID>ODP_ActorParticlesNearClipCombobox</ScreenID>
+                <DrawTemplate>WDT_Inner</DrawTemplate>
+                <Location>
+                        <X>75</X>
+                        <Y>6</Y>
+                </Location>
+                <Size>
+                        <CX>100</CX>
+                        <CY>24</CY>
+                </Size>
+                <ListHeight>100</ListHeight>
+                <Button>BDT_Combo</Button>
+                <Style_Border>true</Style_Border>
+                <Choices>Near</Choices>
+                <Choices>Medium</Choices>
+                <Choices>Far</Choices>
+                <Choices>Farthest</Choices>
+        </Combobox>
+        <!-- Actor Particles Density -->
+        <Label item="ODP_ActorParticlesDensityLabel">
+                <ScreenID>ODP_ActorParticlesDensityLabel</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>10</X>
+                        <Y>40</Y>
+                </Location>
+                <Size>
+                        <CX>100</CX>
+                        <CY>14</CY>
+                </Size>
+                <Text>Density:</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <NoWrap>true</NoWrap>
+                <AlignCenter>false</AlignCenter>
+                <AlignRight>false</AlignRight>
+        </Label>
+        <Combobox item="ODP_ActorParticlesDensityCombobox">
+                <ScreenID>ODP_ActorParticlesDensityCombobox</ScreenID>
+                <DrawTemplate>WDT_Inner</DrawTemplate>
+                <Location>
+                        <X>75</X>
+                        <Y>36</Y>
+                </Location>
+                <Size>
+                        <CX>100</CX>
+                        <CY>24</CY>
+                </Size>
+                <ListHeight>100</ListHeight>
+                <Button>BDT_Combo</Button>
+                <Style_Border>true</Style_Border>
+                <Choices>Off</Choices>
+                <Choices>Low</Choices>
+                <Choices>Medium</Choices>
+                <Choices>High</Choices>
+        </Combobox>
+        <!-- Actor Particles Filter -->
+        <Label item="ODP_ActorParticlesFilterLabel">
+                <ScreenID>ODP_ActorParticlesFilterLabel</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>10</X>
+                        <Y>70</Y>
+                </Location>
+                <Size>
+                        <CX>100</CX>
+                        <CY>14</CY>
+                </Size>
+                <Text>On For:</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <NoWrap>true</NoWrap>
+                <AlignCenter>false</AlignCenter>
+                <AlignRight>false</AlignRight>
+        </Label>
+        <Combobox item="ODP_ActorParticlesFilterCombobox">
+                <ScreenID>ODP_ActorParticlesFilterCombobox</ScreenID>
+                <DrawTemplate>WDT_Inner</DrawTemplate>
+                <Location>
+                        <X>75</X>
+                        <Y>66</Y>
+                </Location>
+                <Size>
+                        <CX>100</CX>
+                        <CY>24</CY>
+                </Size>
+                <ListHeight>120</ListHeight>
+                <Button>BDT_Combo</Button>
+                <Style_Border>true</Style_Border>
+                <Choices>Me</Choices>
+                <Choices>Group</Choices>
+                <Choices>Raid</Choices>
+                <Choices>All PCs</Choices>
+                <Choices>Me + NPC</Choices>
+                <Choices>Group + NPC</Choices>
+                <Choices>Raid + NPC</Choices>
+                <Choices>Everyone</Choices>
+        </Combobox>
+        <!-- Actor Particles Opacity Slider -->
+        <Label item="ODP_ActorParticlesOpacityLabel">
+                <ScreenID>ODP_ActorParticlesOpacityLabel</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>10</X>
+                        <Y>100</Y>
+                </Location>
+                <Size>
+                        <CX>150</CX>
+                        <CY>14</CY>
+                </Size>
+                <Text>Opacity</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <NoWrap>true</NoWrap>
+                <AlignCenter>false</AlignCenter>
+                <AlignRight>false</AlignRight>
+        </Label>
+        <Slider item="ODP_ActorParticlesOpacitySlider">
+                <ScreenID>ODP_ActorParticlesOpacitySlider</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>10</X>
+                        <Y>120</Y>
+                </Location>
+                <Size>
+                        <CX>100</CX>
+                        <CY>16</CY>
+                </Size>
+                <SliderArt>SDT_DefSlider</SliderArt>
+        </Slider>
+        <Label item="ODP_ActorParticlesOpacityValueLabel">
+                <ScreenID>ODP_ActorParticlesOpacityValueLabel</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>110</X>
+                        <Y>120</Y>
+                </Location>
+                <Size>
+                        <CX>50</CX>
+                        <CY>16</CY>
+                </Size>
+                <Text>0 %</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <NoWrap>true</NoWrap>
+                <AlignCenter>false</AlignCenter>
+                <AlignRight>true</AlignRight>
+        </Label>
+        <Page item="ActorParticlesPage">
+                <ScreenID>ActorParticlesPage</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <!-- Pages are sized and positioned by their parent tab -->
+                <Style_VScroll>false</Style_VScroll>
+                <Style_HScroll>false</Style_HScroll>
+                <Style_Transparent>false</Style_Transparent>
+                <DrawTemplate>WDT_Def</DrawTemplate>
+                <TabText>Player</TabText>
+                <TabTextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TabTextColor>
+                <TabTextActiveColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>0</B>
+                </TabTextActiveColor>
+                <Style_Sizable>true</Style_Sizable>
+                <Pieces>ODP_ActorParticlesNearClipLabel</Pieces>
+                <Pieces>ODP_ActorParticlesDensityLabel</Pieces>
+                <Pieces>ODP_ActorParticlesFilterLabel</Pieces>
+                <Pieces>ODP_ActorParticlesOpacityLabel</Pieces>
+                <Pieces>ODP_ActorParticlesOpacitySlider</Pieces>
+                <Pieces>ODP_ActorParticlesOpacityValueLabel</Pieces>
+                <Pieces>ODP_ActorParticlesFilterCombobox</Pieces>
+                <Pieces>ODP_ActorParticlesDensityCombobox</Pieces>
+                <Pieces>ODP_ActorParticlesNearClipCombobox</Pieces>
+        </Page>
+        <TabBox item="ODP_ParticlesTabs">
+                <ScreenID>ODP_ParticlesTabs</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>190</X>
+                        <Y>174</Y>
+                </Location>
+                <Size>
+                        <CX>190</CX>
+                        <CY>170</CY>
+                </Size>
+                <AutoStretch>false</AutoStretch>
+                <TopAnchorToTop>false</TopAnchorToTop>
+                <BottomAnchorToTop>false</BottomAnchorToTop>
+                <LeftAnchorToLeft>false</LeftAnchorToLeft>
+                <RightAnchorToLeft>false</RightAnchorToLeft>
+                <TabBorderTemplate>FT_DefTabBorder</TabBorderTemplate>
+                <PageBorderTemplate>FT_DefPageBorder</PageBorderTemplate>
+                <Pages>Page:SpellParticlesPage</Pages>
+                <Pages>Page:EnvironmentParticlesPage</Pages>
+                <Pages>Page:ActorParticlesPage</Pages>
+        </TabBox>
+        <!-- Advanced Display Options -->
+        <Button item="ODP_AdvancedButton">
+                <ScreenID>ODP_AdvancedButton</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>190</X>
+                        <Y>350</Y>
+                </Location>
+                <Size>
+                        <CX>150</CX>
+                        <CY>20</CY>
+                </Size>
+                <Style_VScroll>false</Style_VScroll>
+                <Style_HScroll>false</Style_HScroll>
+                <Style_Transparent>false</Style_Transparent>
+                <Text>Advanced</Text>
+                <TooltipReference>Pop up the advanced display options window.</TooltipReference>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <ButtonDrawTemplate>
+                        <Normal>A_BigBtnNormal</Normal>
+                        <Pressed>A_BigBtnPressed</Pressed>
+                        <Flyby>A_BigBtnFlyby</Flyby>
+                        <Disabled>A_BigBtnDisabled</Disabled>
+                        <PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+                </ButtonDrawTemplate>
+        </Button>
+        <!-- Display options page -->
+        <Page item="OptionsDisplayPage">
+                <ScreenID>OptionsDisplayPage</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <!-- Pages are sized and positioned by their parent tab -->
+                <Style_VScroll>false</Style_VScroll>
+                <Style_HScroll>false</Style_HScroll>
+                <Style_Transparent>false</Style_Transparent>
+                <DrawTemplate>WDT_Def</DrawTemplate>
+                <TabText>Display</TabText>
+                <TabTextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TabTextColor>
+                <TabTextActiveColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>0</B>
+                </TabTextActiveColor>
+                <Style_Sizable>true</Style_Sizable>
+                <Pieces>ODP_PCNamesCheckbox</Pieces>
+                <Pieces>ODP_NPCNamesCheckbox</Pieces>
+                <Pieces>ODP_ShowTargetRingCheckbox</Pieces>
+                <Pieces>ODP_LevelOfDetailCheckbox</Pieces>
+                <Pieces>ODP_ShowHelmCheckbox</Pieces>
+                <Pieces>ODP_GammaLabel</Pieces>
+                <Pieces>ODP_GammaSlider</Pieces>
+                <Pieces>ODP_GammaValueLabel</Pieces>
+                <Pieces>ODP_ClipPlaneLabel</Pieces>
+                <Pieces>ODP_ClipPlaneSlider</Pieces>
+                <Pieces>ODP_ClipPlaneValueLabel</Pieces>
+                <Pieces>ODP_VideoModesButton</Pieces>
+                <Pieces>ODP_SetFullscreenButton</Pieces>
+                <Pieces>ODP_SetWindowedButton</Pieces>
+                <Pieces>ODP_FadeDelayLabel</Pieces>
+                <Pieces>ODP_FadeDelaySlider</Pieces>
+                <Pieces>ODP_FadeDelayValueLabel</Pieces>
+                <Pieces>ODP_FadeDurationLabel</Pieces>
+                <Pieces>ODP_FadeDurationSlider</Pieces>
+                <Pieces>ODP_FadeDurationValueLabel</Pieces>
+                <Pieces>ODP_WindowAlphaLabel</Pieces>
+                <Pieces>ODP_WindowAlphaSlider</Pieces>
+                <Pieces>ODP_WindowAlphaValueLabel</Pieces>
+                <Pieces>ODP_FadeToAlphaLabel</Pieces>
+                <Pieces>ODP_FadeToAlphaSlider</Pieces>
+                <Pieces>ODP_FadeToAlphaValueLabel</Pieces>
+                <Pieces>ODP_MaxFPSSlider</Pieces>
+                <Pieces>ODP_MaxFPSLabel</Pieces>
+                <Pieces>ODP_MaxFPSSliderValueLabel</Pieces>
+                <Pieces>ODP_LODBiasLabel</Pieces>
+                <Pieces>ODP_LODBiasSlider</Pieces>
+                <Pieces>ODP_LODBiasSliderValueLabel</Pieces>
+                <Pieces>ODP_SkyLabel</Pieces>
+                <Pieces>ODP_ParticlesLabel</Pieces>
+                <Pieces>ODP_AdvancedButton</Pieces>
+                <Pieces>TabBox:ODP_ParticlesTabs</Pieces>
+                <Pieces>ODP_SkyCombobox</Pieces>
+                <Pieces>ODP_LoadScreenLabel</Pieces>
+                <Pieces>ODP_LoadScreenCombobox</Pieces>
+                <Location>
+                        <X>0</X>
+                        <Y>22</Y>
+                </Location>
+                <Size>
+                        <CX>387</CX>
+                        <CY>402</CY>
+                </Size>
+        </Page>
+        <!-- *********** Options Tab Window, Mouse Options Page *********** -->
+        <!-- Invert Y Axis -->
+        <Button item="OMP_InvertYAxisCheckbox">
+                <ScreenID>OMP_InvertYAxisCheckbox</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>10</X>
+                        <Y>10</Y>
+                </Location>
+                <Size>
+                        <CX>150</CX>
+                        <CY>20</CY>
+                </Size>
+                <Style_VScroll>false</Style_VScroll>
+                <Style_HScroll>false</Style_HScroll>
+                <Style_Transparent>false</Style_Transparent>
+                <Style_Checkbox>true</Style_Checkbox>
+                <Text>Invert Y Axis</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <ButtonDrawTemplate>
+                        <Normal>A_BigBtnNormal</Normal>
+                        <Pressed>A_BigBtnPressed</Pressed>
+                        <Flyby>A_BigBtnFlyby</Flyby>
+                        <Disabled>A_BigBtnDisabled</Disabled>
+                        <PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+                </ButtonDrawTemplate>
+        </Button>
+        <!-- Look Spring        -->
+        <Button item="OMP_LookSpringCheckbox">
+                <ScreenID>OMP_LookSpringCheckbox</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>10</X>
+                        <Y>30</Y>
+                </Location>
+                <Size>
+                        <CX>150</CX>
+                        <CY>20</CY>
+                </Size>
+                <Style_VScroll>false</Style_VScroll>
+                <Style_HScroll>false</Style_HScroll>
+                <Style_Transparent>false</Style_Transparent>
+                <Style_Checkbox>true</Style_Checkbox>
+                <Text>Look Spring</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <ButtonDrawTemplate>
+                        <Normal>A_BigBtnNormal</Normal>
+                        <Pressed>A_BigBtnPressed</Pressed>
+                        <Flyby>A_BigBtnFlyby</Flyby>
+                        <Disabled>A_BigBtnDisabled</Disabled>
+                        <PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+                </ButtonDrawTemplate>
+        </Button>
+        <!-- Mouse look -->
+        <Button item="OMP_MouseLookCheckbox">
+                <ScreenID>OMP_MouseLookCheckbox</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>10</X>
+                        <Y>50</Y>
+                </Location>
+                <Size>
+                        <CX>150</CX>
+                        <CY>20</CY>
+                </Size>
+                <Style_VScroll>false</Style_VScroll>
+                <Style_HScroll>false</Style_HScroll>
+                <Style_Transparent>false</Style_Transparent>
+                <Style_Checkbox>true</Style_Checkbox>
+                <Text>Mouse Look</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <ButtonDrawTemplate>
+                        <Normal>A_BigBtnNormal</Normal>
+                        <Pressed>A_BigBtnPressed</Pressed>
+                        <Flyby>A_BigBtnFlyby</Flyby>
+                        <Disabled>A_BigBtnDisabled</Disabled>
+                        <PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+                </ButtonDrawTemplate>
+        </Button>
+        <!-- Mouse Wheel Zoom -->
+        <Button item="OMP_MouseWheelZoomCheckbox">
+                <ScreenID>OMP_MouseWheelZoomCheckbox</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>10</X>
+                        <Y>70</Y>
+                </Location>
+                <Size>
+                        <CX>150</CX>
+                        <CY>20</CY>
+                </Size>
+                <Style_VScroll>false</Style_VScroll>
+                <Style_HScroll>false</Style_HScroll>
+                <Style_Transparent>false</Style_Transparent>
+                <Style_Checkbox>true</Style_Checkbox>
+                <Text>Mouse Wheel Zoom</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <ButtonDrawTemplate>
+                        <Normal>A_BigBtnNormal</Normal>
+                        <Pressed>A_BigBtnPressed</Pressed>
+                        <Flyby>A_BigBtnFlyby</Flyby>
+                        <Disabled>A_BigBtnDisabled</Disabled>
+                        <PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+                </ButtonDrawTemplate>
+        </Button>
+        <!-- Mouse Left and Right Handedness -->
+        <Button item="OMP_MouseHandedness">
+                <ScreenID>OMP_MouseHandedness</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <TooltipReference>Toggle this to swap the mouse's left and right buttons.</TooltipReference>
+                <Location>
+                        <X>10</X>
+                        <Y>90</Y>
+                </Location>
+                <Size>
+                        <CX>150</CX>
+                        <CY>20</CY>
+                </Size>
+                <Style_VScroll>false</Style_VScroll>
+                <Style_HScroll>false</Style_HScroll>
+                <Style_Transparent>false</Style_Transparent>
+                <Style_Checkbox>true</Style_Checkbox>
+                <Text>Right-handed mouse</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <ButtonDrawTemplate>
+                        <Normal>A_BigBtnNormal</Normal>
+                        <Pressed>A_BigBtnPressed</Pressed>
+                        <Flyby>A_BigBtnFlyby</Flyby>
+                        <Disabled>A_BigBtnDisabled</Disabled>
+                        <PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+                </ButtonDrawTemplate>
+        </Button>
+        <!-- Mouse sensitivity -->
+        <Label item="OMP_MouseSensitivityLabel">
+                <ScreenID>OMP_MouseSensitivityLabel</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>200</X>
+                        <Y>10</Y>
+                </Location>
+                <Size>
+                        <CX>150</CX>
+                        <CY>14</CY>
+                </Size>
+                <Text>Mouselook Sensitivity</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <NoWrap>true</NoWrap>
+                <AlignCenter>false</AlignCenter>
+                <AlignRight>false</AlignRight>
+        </Label>
+        <Slider item="OMP_MouseSensitivitySlider">
+                <ScreenID>OMP_MouseSensitivitySlider</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>200</X>
+                        <Y>30</Y>
+                </Location>
+                <Size>
+                        <CX>100</CX>
+                        <CY>16</CY>
+                </Size>
+                <SliderArt>SDT_DefSlider</SliderArt>
+        </Slider>
+        <Label item="OMP_MouseSensitivityValueLabel">
+                <ScreenID>OMP_MouseSensitivityValueLabel</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>300</X>
+                        <Y>30</Y>
+                </Location>
+                <Size>
+                        <CX>50</CX>
+                        <CY>16</CY>
+                </Size>
+                <Text>0 %</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <NoWrap>true</NoWrap>
+                <AlignCenter>false</AlignCenter>
+                <AlignRight>true</AlignRight>
+        </Label>
+        <!-- Mouse options page -->
+        <Page item="OptionsMousePage">
+                <ScreenID>OptionsMousePage</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <!-- Pages are sized and positioned by their parent tab -->
+                <Style_VScroll>false</Style_VScroll>
+                <Style_HScroll>false</Style_HScroll>
+                <Style_Transparent>false</Style_Transparent>
+                <TooltipReference/>
+                <DrawTemplate>WDT_Def</DrawTemplate>
+                <TabText>Mouse</TabText>
+                <TabTextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TabTextColor>
+                <TabTextActiveColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>0</B>
+                </TabTextActiveColor>
+                <Style_Sizable>true</Style_Sizable>
+                <Pieces>OMP_InvertYAxisCheckbox</Pieces>
+                <Pieces>OMP_LookSpringCheckbox</Pieces>
+                <Pieces>OMP_MouseLookCheckbox</Pieces>
+                <Pieces>OMP_MouseWheelZoomCheckbox</Pieces>
+                <Pieces>OMP_MouseHandedness</Pieces>
+                <Pieces>OMP_MouseSensitivityLabel</Pieces>
+                <Pieces>OMP_MouseSensitivitySlider</Pieces>
+                <Pieces>OMP_MouseSensitivityValueLabel</Pieces>
+                <Location>
+                        <X>0</X>
+                        <Y>22</Y>
+                </Location>
+                <Size>
+                        <CX>387</CX>
+                        <CY>402</CY>
+                </Size>
+        </Page>
+        <!-- *********** Options Tab Window, Keyboard Options Page *********** -->
+        <!-- Keyboard filter list -->
+        <Label item="OKP_KeyboardFilterLabel">
+                <ScreenID>OKP_KeyboardFilterLabel</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>10</X>
+                        <Y>10</Y>
+                </Location>
+                <Size>
+                        <CX>120</CX>
+                        <CY>14</CY>
+                </Size>
+                <Text>Select category:</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <NoWrap>true</NoWrap>
+                <AlignCenter>false</AlignCenter>
+                <AlignRight>false</AlignRight>
+        </Label>
+        <Combobox item="OKP_KeyboardFilterCombobox">
+                <ScreenID>OKP_KeyboardFilterCombobox</ScreenID>
+                <DrawTemplate>WDT_Inner</DrawTemplate>
+                <Location>
+                        <X>20</X>
+                        <Y>24</Y>
+                </Location>
+                <Size>
+                        <CX>150</CX>
+                        <CY>24</CY>
+                </Size>
+                <ListHeight>300</ListHeight>
+                <Button>BDT_Combo</Button>
+                <Style_Border>true</Style_Border>
+                <Choices>Movement</Choices>
+                <Choices>Commands</Choices>
+                <Choices>Spell casting</Choices>
+                <Choices>Target</Choices>
+                <Choices>Camera</Choices>
+                <Choices>Chat</Choices>
+                <Choices>UI</Choices>
+                <Choices>Hotbar 1</Choices>
+                <Choices>Hotbar 2</Choices>
+                <Choices>Hotbar 3</Choices>
+                <Choices>Hotbar 4</Choices>
+                <Choices>All</Choices>
+        </Combobox>
+        <!-- Default keys button -->
+        <Button item="OKP_DefaultKeysButton">
+                <ScreenID>OKP_DefaultKeysButton</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>200</X>
+                        <Y>15</Y>
+                </Location>
+                <Size>
+                        <CX>150</CX>
+                        <CY>20</CY>
+                </Size>
+                <Style_VScroll>false</Style_VScroll>
+                <Style_HScroll>false</Style_HScroll>
+                <Style_Transparent>false</Style_Transparent>
+                <Text>Reload defaults</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <ButtonDrawTemplate>
+                        <Normal>A_BigBtnNormal</Normal>
+                        <Pressed>A_BigBtnPressed</Pressed>
+                        <Flyby>A_BigBtnFlyby</Flyby>
+                        <Disabled>A_BigBtnDisabled</Disabled>
+                        <PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+                </ButtonDrawTemplate>
+        </Button>
+        <!-- Keyboard assignment list -->
+        <Listbox item="OKP_KeyboardAssignmentList">
+                <ScreenID>OKP_KeyboardAssignmentList</ScreenID>
+                <DrawTemplate>WDT_Inner</DrawTemplate>
+                <RelativePosition>true</RelativePosition>
+                <AutoStretch>true</AutoStretch>
+                <TopAnchorToTop>true</TopAnchorToTop>
+                <BottomAnchorToTop>false</BottomAnchorToTop>
+                <LeftAnchorToLeft>true</LeftAnchorToLeft>
+                <RightAnchorToLeft>false</RightAnchorToLeft>
+                <TopAnchorOffset>60</TopAnchorOffset>
+                <LeftAnchorOffset>5</LeftAnchorOffset>
+                <RightAnchorOffset>5</RightAnchorOffset>
+                <BottomAnchorOffset>5</BottomAnchorOffset>
+                <Style_Border>true</Style_Border>
+                <Style_VScroll>true</Style_VScroll>
+                <Columns>
+                        <Width>180</Width>
+                        <Heading>Command</Heading>
+                </Columns>
+                <Columns>
+                        <Width>75</Width>
+                        <Heading>Keypress</Heading>
+                </Columns>
+                <Columns>
+                        <Width>75</Width>
+                        <Heading>Alternate</Heading>
+                </Columns>
+        </Listbox>
+        <!-- Keyboard options page -->
+        <Page item="OptionsKeyboardPage">
+                <ScreenID>OptionsKeyboardPage</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <!-- Pages are sized and positioned by their parent tab -->
+                <Style_VScroll>false</Style_VScroll>
+                <Style_HScroll>false</Style_HScroll>
+                <Style_Transparent>false</Style_Transparent>
+                <DrawTemplate>WDT_Def</DrawTemplate>
+                <TabText>Keys</TabText>
+                <TabTextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TabTextColor>
+                <TabTextActiveColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>0</B>
+                </TabTextActiveColor>
+                <Style_Sizable>true</Style_Sizable>
+                <Pieces>OKP_KeyboardAssignmentList</Pieces>
+                <Pieces>OKP_DefaultKeysButton</Pieces>
+                <Pieces>OKP_KeyboardFilterLabel</Pieces>
+                <Pieces>OKP_KeyboardFilterCombobox</Pieces>
+                <Location>
+                        <X>0</X>
+                        <Y>22</Y>
+                </Location>
+                <Size>
+                        <CX>387</CX>
+                        <CY>402</CY>
+                </Size>
+        </Page>
+        <!-- *********** Options Tab Window, Chat Filters Page *********** -->
+        <Listbox item="OFP_FilterList">
+                <ScreenID>FilterList</ScreenID>
+                <DrawTemplate>WDT_Inner</DrawTemplate>
+                <RelativePosition>true</RelativePosition>
+                <AutoStretch>true</AutoStretch>
+                <TopAnchorToTop>true</TopAnchorToTop>
+                <BottomAnchorToTop>false</BottomAnchorToTop>
+                <LeftAnchorToLeft>true</LeftAnchorToLeft>
+                <RightAnchorToLeft>false</RightAnchorToLeft>
+                <TopAnchorOffset>10</TopAnchorOffset>
+                <LeftAnchorOffset>40</LeftAnchorOffset>
+                <RightAnchorOffset>40</RightAnchorOffset>
+                <BottomAnchorOffset>40</BottomAnchorOffset>
+                <Style_Border>true</Style_Border>
+                <Style_VScroll>true</Style_VScroll>
+                <Columns>
+                        <Width>150</Width>
+                        <Heading>Filter description</Heading>
+                </Columns>
+                <Columns>
+                        <Width>110</Width>
+                        <Heading>Filter Setting</Heading>
+                </Columns>
+        </Listbox>
+        <Combobox item="OFP_FilterComboBox">
+                <ScreenID>FilterComboBox</ScreenID>
+                <DrawTemplate>WDT_Inner</DrawTemplate>
+                <AutoStretch>true</AutoStretch>
+                <TopAnchorToTop>false</TopAnchorToTop>
+                <BottomAnchorToTop>false</BottomAnchorToTop>
+                <LeftAnchorToLeft>true</LeftAnchorToLeft>
+                <RightAnchorToLeft>false</RightAnchorToLeft>
+                <TopAnchorOffset>34</TopAnchorOffset>
+                <LeftAnchorOffset>60</LeftAnchorOffset>
+                <RightAnchorOffset>60</RightAnchorOffset>
+                <BottomAnchorOffset>10</BottomAnchorOffset>
+                <ListHeight>80</ListHeight>
+                <Button>BDT_Combo</Button>
+                <Style_Border>true</Style_Border>
+        </Combobox>
+        <Page item="OptionsChatPage">
+                <ScreenID>OptionsChatPage</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <!-- Pages are sized and positioned by their parent tab -->
+                <Style_VScroll>false</Style_VScroll>
+                <Style_HScroll>false</Style_HScroll>
+                <Style_Transparent>false</Style_Transparent>
+                <DrawTemplate>WDT_Def</DrawTemplate>
+                <TabText>Filters</TabText>
+                <TabTextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TabTextColor>
+                <TabTextActiveColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>0</B>
+                </TabTextActiveColor>
+                <Style_Sizable>true</Style_Sizable>
+                <Pieces>OFP_FilterList</Pieces>
+                <Pieces>OFP_FilterComboBox</Pieces>
+                <Location>
+                        <X>0</X>
+                        <Y>22</Y>
+                </Location>
+                <Size>
+                        <CX>387</CX>
+                        <CY>402</CY>
+                </Size>
+        </Page>
+        <!-- *********** Options Tab Window, Chat Colors Page *********** -->
+        <Button item="OCP_UserColorDefault">
+                <ScreenID>UserColorDefault</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <RelativePosition>true</RelativePosition>
+                <AutoStretch>true</AutoStretch>
+                <TopAnchorToTop>true</TopAnchorToTop>
+                <BottomAnchorToTop>true</BottomAnchorToTop>
+                <LeftAnchorToLeft>true</LeftAnchorToLeft>
+                <RightAnchorToLeft>false</RightAnchorToLeft>
+                <TopAnchorOffset>8</TopAnchorOffset>
+                <LeftAnchorOffset>126</LeftAnchorOffset>
+                <RightAnchorOffset>102</RightAnchorOffset>
+                <BottomAnchorOffset>30</BottomAnchorOffset>
+                <Style_Transparent>false</Style_Transparent>
+                <Style_Checkbox>false</Style_Checkbox>
+                <Text>Reset Default Colors</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <ButtonDrawTemplate>
+                        <Normal>A_BigBtnNormal</Normal>
+                        <Pressed>A_BigBtnPressed</Pressed>
+                        <Flyby>A_BigBtnFlyby</Flyby>
+                        <Disabled>A_BigBtnDisabled</Disabled>
+                        <PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+                </ButtonDrawTemplate>
+        </Button>
+        <Listbox item="OCP_ColorChooseList">
+                <ScreenID>ColorChooseList</ScreenID>
+                <DrawTemplate>WDT_Inner</DrawTemplate>
+                <RelativePosition>true</RelativePosition>
+                <AutoStretch>true</AutoStretch>
+                <TopAnchorToTop>true</TopAnchorToTop>
+                <BottomAnchorToTop>false</BottomAnchorToTop>
+                <LeftAnchorToLeft>true</LeftAnchorToLeft>
+                <RightAnchorToLeft>false</RightAnchorToLeft>
+                <TopAnchorOffset>35</TopAnchorOffset>
+                <LeftAnchorOffset>20</LeftAnchorOffset>
+                <RightAnchorOffset>20</RightAnchorOffset>
+                <BottomAnchorOffset>35</BottomAnchorOffset>
+                <Style_Border>true</Style_Border>
+                <Style_VScroll>true</Style_VScroll>
+                <Columns>
+                        <Width>150</Width>
+                        <Heading>Text description</Heading>
+                </Columns>
+                <Columns>
+                        <Width>150</Width>
+                        <Heading>Color Sample</Heading>
+                </Columns>
+        </Listbox>
+        <Button item="OCP_UserColorChange">
+                <ScreenID>UserColorChange</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <RelativePosition>true</RelativePosition>
+                <AutoStretch>true</AutoStretch>
+                <TopAnchorToTop>false</TopAnchorToTop>
+                <BottomAnchorToTop>false</BottomAnchorToTop>
+                <LeftAnchorToLeft>true</LeftAnchorToLeft>
+                <RightAnchorToLeft>false</RightAnchorToLeft>
+                <TopAnchorOffset>30</TopAnchorOffset>
+                <LeftAnchorOffset>126</LeftAnchorOffset>
+                <RightAnchorOffset>102</RightAnchorOffset>
+                <BottomAnchorOffset>8</BottomAnchorOffset>
+                <Style_Transparent>false</Style_Transparent>
+                <Style_Checkbox>false</Style_Checkbox>
+                <Text>Change Selected Color</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <ButtonDrawTemplate>
+                        <Normal>A_BigBtnNormal</Normal>
+                        <Pressed>A_BigBtnPressed</Pressed>
+                        <Flyby>A_BigBtnFlyby</Flyby>
+                        <Disabled>A_BigBtnDisabled</Disabled>
+                        <PressedFlyby>A_BigBtnPressedFlyby</PressedFlyby>
+                </ButtonDrawTemplate>
+        </Button>
+        <Page item="OptionsColorPage">
+                <ScreenID>OptionsColorPage</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <!-- Pages are sized and positioned by their parent tab -->
+                <Style_VScroll>false</Style_VScroll>
+                <Style_HScroll>false</Style_HScroll>
+                <Style_Transparent>false</Style_Transparent>
+                <DrawTemplate>WDT_Def</DrawTemplate>
+                <TabText>Colors</TabText>
+                <TabTextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TabTextColor>
+                <TabTextActiveColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>0</B>
+                </TabTextActiveColor>
+                <Style_Sizable>true</Style_Sizable>
+                <Pieces>OCP_UserColorDefault</Pieces>
+                <Pieces>OCP_ColorChooseList</Pieces>
+                <Pieces>OCP_UserColorChange</Pieces>
+                <Location>
+                        <X>0</X>
+                        <Y>22</Y>
+                </Location>
+                <Size>
+                        <CX>387</CX>
+                        <CY>402</CY>
+                </Size>
+        </Page>
+        <!-- MAIL OPTIONS PANEL -->
+        <Label item="OMP_PathToAddressBookLabel">
+                <RelativePosition>true</RelativePosition>
+                <AutoStretch>true</AutoStretch>
+                <LeftAnchorOffset>12</LeftAnchorOffset>
+                <TopAnchorOffset>10</TopAnchorOffset>
+                <RightAnchorOffset>10</RightAnchorOffset>
+                <BottomAnchorOffset>34</BottomAnchorOffset>
+                <TopAnchorToTop>true</TopAnchorToTop>
+                <BottomAnchorToTop>true</BottomAnchorToTop>
+                <LeftAnchorToLeft>true</LeftAnchorToLeft>
+                <RightAnchorToLeft>false</RightAnchorToLeft>
+                <Text>Address Book Filename</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <NoWrap>true</NoWrap>
+                <AlignCenter>false</AlignCenter>
+                <AlignRight>false</AlignRight>
+        </Label>
+        <Editbox item="OMP_PathToAddressbookField">
+                <ScreenID>PathToAddressBookField</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <AutoStretch>true</AutoStretch>
+                <DrawTemplate>WDT_Inner</DrawTemplate>
+                <Style_Border>true</Style_Border>
+                <LeftAnchorOffset>10</LeftAnchorOffset>
+                <TopAnchorOffset>30</TopAnchorOffset>
+                <RightAnchorOffset>35</RightAnchorOffset>
+                <BottomAnchorOffset>54</BottomAnchorOffset>
+                <TopAnchorToTop>true</TopAnchorToTop>
+                <BottomAnchorToTop>true</BottomAnchorToTop>
+                <LeftAnchorToLeft>true</LeftAnchorToLeft>
+                <RightAnchorToLeft>false</RightAnchorToLeft>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+        </Editbox>
+        <Button item="OMP_FileDialogButton">
+                <ScreenID>FileDialogButton</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <AutoStretch>true</AutoStretch>
+                <LeftAnchorOffset>34</LeftAnchorOffset>
+                <TopAnchorOffset>31</TopAnchorOffset>
+                <RightAnchorOffset>8</RightAnchorOffset>
+                <BottomAnchorOffset>55</BottomAnchorOffset>
+                <TopAnchorToTop>true</TopAnchorToTop>
+                <BottomAnchorToTop>true</BottomAnchorToTop>
+                <LeftAnchorToLeft>false</LeftAnchorToLeft>
+                <RightAnchorToLeft>false</RightAnchorToLeft>
+                <Style_Transparent>false</Style_Transparent>
+                <Style_Checkbox>false</Style_Checkbox>
+                <Text>...</Text>
+                <TooltipReference>File Selector</TooltipReference>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <ButtonDrawTemplate>
+                        <Normal>A_SmallBtnNormal</Normal>
+                        <Pressed>A_SmallBtnPressed</Pressed>
+                        <Flyby>A_SmallBtnFlyby</Flyby>
+                        <Disabled>A_SmallBtnDisabled</Disabled>
+                        <PressedFlyby>A_SmallBtnPressedFlyby</PressedFlyby>
+                </ButtonDrawTemplate>
+        </Button>
+        <Label item="OMP_MailForwardingLabel">
+                <ScreenID/>
+                <RelativePosition>true</RelativePosition>
+                <AutoStretch>true</AutoStretch>
+                <LeftAnchorOffset>30</LeftAnchorOffset>
+                <TopAnchorOffset>80</TopAnchorOffset>
+                <RightAnchorOffset>10</RightAnchorOffset>
+                <BottomAnchorOffset>96</BottomAnchorOffset>
+                <TopAnchorToTop>true</TopAnchorToTop>
+                <BottomAnchorToTop>true</BottomAnchorToTop>
+                <LeftAnchorToLeft>true</LeftAnchorToLeft>
+                <RightAnchorToLeft>false</RightAnchorToLeft>
+                <Text>Forward mail to the address registered in my Station Account.</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <NoWrap>true</NoWrap>
+                <AlignCenter>false</AlignCenter>
+                <AlignRight>false</AlignRight>
+        </Label>
+        <Button item="OMP_MailForwardingCheckbox">
+                <ScreenID>MailForwardingCheckbox</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <AutoStretch>true</AutoStretch>
+                <LeftAnchorOffset>10</LeftAnchorOffset>
+                <TopAnchorOffset>80</TopAnchorOffset>
+                <RightAnchorOffset>26</RightAnchorOffset>
+                <BottomAnchorOffset>96</BottomAnchorOffset>
+                <TopAnchorToTop>true</TopAnchorToTop>
+                <BottomAnchorToTop>true</BottomAnchorToTop>
+                <LeftAnchorToLeft>true</LeftAnchorToLeft>
+                <RightAnchorToLeft>true</RightAnchorToLeft>
+                <Style_Transparent>false</Style_Transparent>
+                <Style_Checkbox>true</Style_Checkbox>
+                <Text/>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <ButtonDrawTemplate>
+                        <Normal>A_CheckBoxNormal</Normal>
+                        <Pressed>A_CheckBoxPressed</Pressed>
+                </ButtonDrawTemplate>
+        </Button>
+        <Label item="OMP_NewMailNotificationLabel">
+                <ScreenID/>
+                <RelativePosition>true</RelativePosition>
+                <AutoStretch>true</AutoStretch>
+                <LeftAnchorOffset>30</LeftAnchorOffset>
+                <TopAnchorOffset>100</TopAnchorOffset>
+                <RightAnchorOffset>10</RightAnchorOffset>
+                <BottomAnchorOffset>116</BottomAnchorOffset>
+                <TopAnchorToTop>true</TopAnchorToTop>
+                <BottomAnchorToTop>true</BottomAnchorToTop>
+                <LeftAnchorToLeft>true</LeftAnchorToLeft>
+                <RightAnchorToLeft>false</RightAnchorToLeft>
+                <Text>Notify me in the chat window when new mail arrives.</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <NoWrap>true</NoWrap>
+                <AlignCenter>false</AlignCenter>
+                <AlignRight>false</AlignRight>
+        </Label>
+        <Button item="OMP_NewMailNotificationCheckbox">
+                <ScreenID>NewMailNotificationCheckbox</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <AutoStretch>true</AutoStretch>
+                <LeftAnchorOffset>10</LeftAnchorOffset>
+                <TopAnchorOffset>100</TopAnchorOffset>
+                <RightAnchorOffset>26</RightAnchorOffset>
+                <BottomAnchorOffset>116</BottomAnchorOffset>
+                <TopAnchorToTop>true</TopAnchorToTop>
+                <BottomAnchorToTop>true</BottomAnchorToTop>
+                <LeftAnchorToLeft>true</LeftAnchorToLeft>
+                <RightAnchorToLeft>true</RightAnchorToLeft>
+                <Style_Transparent>false</Style_Transparent>
+                <Style_Checkbox>true</Style_Checkbox>
+                <Text/>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <ButtonDrawTemplate>
+                        <Normal>A_CheckBoxNormal</Normal>
+                        <Pressed>A_CheckBoxPressed</Pressed>
+                </ButtonDrawTemplate>
+        </Button>
+        <Label item="OMP_NewMailAudioNotificationLabel">
+                <ScreenID/>
+                <RelativePosition>true</RelativePosition>
+                <AutoStretch>true</AutoStretch>
+                <LeftAnchorOffset>30</LeftAnchorOffset>
+                <TopAnchorOffset>120</TopAnchorOffset>
+                <RightAnchorOffset>10</RightAnchorOffset>
+                <BottomAnchorOffset>136</BottomAnchorOffset>
+                <TopAnchorToTop>true</TopAnchorToTop>
+                <BottomAnchorToTop>true</BottomAnchorToTop>
+                <LeftAnchorToLeft>true</LeftAnchorToLeft>
+                <RightAnchorToLeft>false</RightAnchorToLeft>
+                <Text>Play a sound when new mail arrives.</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <NoWrap>true</NoWrap>
+                <AlignCenter>false</AlignCenter>
+                <AlignRight>false</AlignRight>
+        </Label>
+        <Button item="OMP_NewMailAudioNotificationCheckbox">
+                <ScreenID>NewMailAudioNotificationCheckbox</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <AutoStretch>true</AutoStretch>
+                <LeftAnchorOffset>10</LeftAnchorOffset>
+                <TopAnchorOffset>120</TopAnchorOffset>
+                <RightAnchorOffset>26</RightAnchorOffset>
+                <BottomAnchorOffset>136</BottomAnchorOffset>
+                <TopAnchorToTop>true</TopAnchorToTop>
+                <BottomAnchorToTop>true</BottomAnchorToTop>
+                <LeftAnchorToLeft>true</LeftAnchorToLeft>
+                <RightAnchorToLeft>true</RightAnchorToLeft>
+                <Style_Transparent>false</Style_Transparent>
+                <Style_Checkbox>true</Style_Checkbox>
+                <Text/>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <ButtonDrawTemplate>
+                        <Normal>A_CheckBoxNormal</Normal>
+                        <Pressed>A_CheckBoxPressed</Pressed>
+                </ButtonDrawTemplate>
+        </Button>
+        <Label item="OMP_AddressBookConfirmDeletionLabel">
+                <ScreenID/>
+                <RelativePosition>true</RelativePosition>
+                <AutoStretch>true</AutoStretch>
+                <LeftAnchorOffset>30</LeftAnchorOffset>
+                <TopAnchorOffset>140</TopAnchorOffset>
+                <RightAnchorOffset>10</RightAnchorOffset>
+                <BottomAnchorOffset>156</BottomAnchorOffset>
+                <TopAnchorToTop>true</TopAnchorToTop>
+                <BottomAnchorToTop>true</BottomAnchorToTop>
+                <LeftAnchorToLeft>true</LeftAnchorToLeft>
+                <RightAnchorToLeft>false</RightAnchorToLeft>
+                <Text>Ask for confirmation before deleting an address book entry.</Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <NoWrap>true</NoWrap>
+                <AlignCenter>false</AlignCenter>
+                <AlignRight>false</AlignRight>
+        </Label>
+        <Button item="OMP_AddressBookConfirmDeletionCheckbox">
+                <ScreenID>AddressBookConfirmDeletionCheckbox</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <AutoStretch>true</AutoStretch>
+                <LeftAnchorOffset>10</LeftAnchorOffset>
+                <TopAnchorOffset>140</TopAnchorOffset>
+                <RightAnchorOffset>26</RightAnchorOffset>
+                <BottomAnchorOffset>156</BottomAnchorOffset>
+                <TopAnchorToTop>true</TopAnchorToTop>
+                <BottomAnchorToTop>true</BottomAnchorToTop>
+                <LeftAnchorToLeft>true</LeftAnchorToLeft>
+                <RightAnchorToLeft>true</RightAnchorToLeft>
+                <Style_Transparent>false</Style_Transparent>
+                <Style_Checkbox>true</Style_Checkbox>
+                <Text/>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <ButtonDrawTemplate>
+                        <Normal>A_CheckBoxNormal</Normal>
+                        <Pressed>A_CheckBoxPressed</Pressed>
+                </ButtonDrawTemplate>
+        </Button>
+        <Page item="OptionsMailPage">
+                <ScreenID>OptionsMailPage</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <!-- Pages are sized and positioned by their parent tab -->
+                <Style_VScroll>false</Style_VScroll>
+                <Style_HScroll>false</Style_HScroll>
+                <Style_Transparent>false</Style_Transparent>
+                <DrawTemplate>WDT_Def</DrawTemplate>
+                <TabText>Mail</TabText>
+                <TabTextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TabTextColor>
+                <TabTextActiveColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>0</B>
+                </TabTextActiveColor>
+                <Style_Sizable>true</Style_Sizable>
+                <Pieces>OMP_PathToAddressBookLabel</Pieces>
+                <Pieces>OMP_PathToAddressbookField</Pieces>
+                <Pieces>OMP_FileDialogButton</Pieces>
+                <Pieces>OMP_MailForwardingLabel</Pieces>
+                <Pieces>OMP_MailForwardingCheckbox</Pieces>
+                <Pieces>OMP_NewMailNotificationLabel</Pieces>
+                <Pieces>OMP_NewMailNotificationCheckbox</Pieces>
+                <Pieces>OMP_NewMailAudioNotificationLabel</Pieces>
+                <Pieces>OMP_NewMailAudioNotificationCheckbox</Pieces>
+                <Pieces>OMP_AddressBookConfirmDeletionLabel</Pieces>
+                <Pieces>OMP_AddressBookConfirmDeletionCheckbox</Pieces>
+                <Location>
+                        <X>0</X>
+                        <Y>22</Y>
+                </Location>
+                <Size>
+                        <CX>387</CX>
+                        <CY>402</CY>
+                </Size>
+        </Page>
+        <!-- *********** Options Tab Window, Top level *********** -->
+        <TabBox item="OPTW_OptionsSubwindows">
+                <ScreenID>OPTW_OptionsSubwindows</ScreenID>
+                <RelativePosition>true</RelativePosition>
+                <AutoStretch>true</AutoStretch>
+                <TopAnchorToTop>true</TopAnchorToTop>
+                <BottomAnchorToTop>false</BottomAnchorToTop>
+                <LeftAnchorToLeft>true</LeftAnchorToLeft>
+                <RightAnchorToLeft>false</RightAnchorToLeft>
+                <TabBorderTemplate>FT_DefTabBorder</TabBorderTemplate>
+                <PageBorderTemplate>FT_DefPageBorder</PageBorderTemplate>
+                <Pages>OptionsGeneralPage</Pages>
+                <Pages>OptionsDisplayPage</Pages>
+                <Pages>OptionsMousePage</Pages>
+                <Pages>OptionsKeyboardPage</Pages>
+                <Pages>OptionsChatPage</Pages>
+                <Pages>OptionsColorPage</Pages>
+                <!-- <Pages>OptionsMailPage</Pages> -->
+        </TabBox>
+        <Screen item="OptionsWindow">
+                <ScreenID/>
+                <RelativePosition>false</RelativePosition>
+                <Location>
+                        <X>119</X>
+                        <Y>47</Y>
+                </Location>
+                <Size>
+                        <CX>400</CX>
+                        <CY>481</CY>
+                </Size>
+                <Text>Options</Text>
+                <Style_VScroll>false</Style_VScroll>
+                <Style_HScroll>false</Style_HScroll>
+                <Style_Transparent>false</Style_Transparent>
+                <TooltipReference/>
+                <DrawTemplate>WDT_Def</DrawTemplate>
+                <Style_Titlebar>true</Style_Titlebar>
+                <Style_Closebox>false</Style_Closebox>
+                <Style_Minimizebox>false</Style_Minimizebox>
+                <Style_Border>true</Style_Border>
+                <Style_Sizable>false</Style_Sizable>
+                <Pieces>OPTW_OptionsSubwindows</Pieces>
+        </Screen>
+</XML>

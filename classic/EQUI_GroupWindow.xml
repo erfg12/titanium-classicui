@@ -1,0 +1,322 @@
+<?xml version = "1.0"?>
+<XML ID = "EQInterfaceDefinitionLanguage">
+	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
+
+<!--  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  -->
+<!--  "Classic UI" mod (c) Fabrice Denis (faB) 2002-2003       -->
+<!--  Based on the original EQ UI (c) Verant Interactive/Sony  -->
+<!--  Email: oukoulele@yahoo.fr                                -->
+<!--  Last Rev. : 07 April 2003 (group name zoning fix)        -->
+<!--  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  -->
+
+<!-- faB: Group Window Background bits -->
+	<Ui2DAnimation item = "GW_bg_TX">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>classic_pieces03.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>80</Y>
+			</Location>
+			<Size>
+				<CX>95</CX>
+				<CY>124</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	
+	<Gauge item = "GW_Gauge1">
+		<ScreenID>Gauge1</ScreenID>
+		<!--<Font>3</Font>-->
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>19</X>
+			<Y>10</Y>
+		</Location>
+		<Size>
+			<CX>85</CX>
+			<CY>24</CY>
+		</Size>
+		<TextOffsetX>2</TextOffsetX>
+		<!--<TextOffsetY>0</TextOffsetY>-->
+		<!--<GaugeOffsetX>0</GaugeOffsetX>-->
+		<GaugeOffsetY>12</GaugeOffsetY>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+		<FillTint>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</FillTint>
+		<LinesFillTint>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</LinesFillTint>
+		<DrawLinesFill>false</DrawLinesFill>
+		<EQType>11</EQType>
+		<GaugeDrawTemplate>
+			<Background>A_Classic_GaugeBackground</Background>
+			<Fill>A_Classic_GaugeFill</Fill>
+			<Lines>A_Classic_GaugeLines</Lines>
+			<!--<LinesFill>A_Classic_GaugeLinesFill</LinesFill>-->
+			<EndCapLeft>A_Classic_GaugeEndCapLeft</EndCapLeft>
+			<EndCapRight>A_Classic_GaugeEndCapRight</EndCapRight>
+		</GaugeDrawTemplate>
+	</Gauge>
+
+	<Gauge item = "GW_Gauge2">
+		<ScreenID>Gauge2</ScreenID>
+		<!--<Font>3</Font>-->
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>19</X>
+			<Y>30</Y>
+		</Location>
+		<Size>
+			<CX>85</CX>
+			<CY>24</CY>
+		</Size>
+		<TextOffsetX>2</TextOffsetX>
+		<!--<TextOffsetY>0</TextOffsetY>-->
+		<!--<GaugeOffsetX>0</GaugeOffsetX>-->
+		<GaugeOffsetY>12</GaugeOffsetY>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+		<FillTint>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</FillTint>
+		<LinesFillTint>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</LinesFillTint>
+		<DrawLinesFill>false</DrawLinesFill>
+		<EQType>12</EQType>
+		<GaugeDrawTemplate>
+			<Background>A_Classic_GaugeBackground</Background>
+			<Fill>A_Classic_GaugeFill</Fill>
+			<Lines>A_Classic_GaugeLines</Lines>
+			<!--<LinesFill>A_Classic_GaugeLinesFill</LinesFill>-->
+			<EndCapLeft>A_Classic_GaugeEndCapLeft</EndCapLeft>
+			<EndCapRight>A_Classic_GaugeEndCapRight</EndCapRight>
+		</GaugeDrawTemplate>
+	</Gauge>
+	
+	
+	<Gauge item = "GW_Gauge3">
+		<ScreenID>Gauge3</ScreenID>
+		<!--<Font>3</Font>-->
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>19</X>
+			<Y>52</Y>
+		</Location>
+		<Size>
+			<CX>85</CX>
+			<CY>24</CY>
+		</Size>
+		<TextOffsetX>2</TextOffsetX>
+		<!--<TextOffsetY>0</TextOffsetY>-->
+		<!--<GaugeOffsetX>0</GaugeOffsetX>-->
+		<GaugeOffsetY>12</GaugeOffsetY>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+		<FillTint>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</FillTint>
+		<LinesFillTint>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</LinesFillTint>
+		<DrawLinesFill>false</DrawLinesFill>
+		<EQType>13</EQType>
+		<GaugeDrawTemplate>
+			<Background>A_Classic_GaugeBackground</Background>
+			<Fill>A_Classic_GaugeFill</Fill>
+			<Lines>A_Classic_GaugeLines</Lines>
+			<!--<LinesFill>A_Classic_GaugeLinesFill</LinesFill>-->
+			<EndCapLeft>A_Classic_GaugeEndCapLeft</EndCapLeft>
+			<EndCapRight>A_Classic_GaugeEndCapRight</EndCapRight>
+		</GaugeDrawTemplate>
+	</Gauge>
+	
+
+	<Gauge item = "GW_Gauge4">
+		<ScreenID>Gauge4</ScreenID>
+		<!--<Font>3</Font>-->
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>19</X>
+			<Y>74</Y>
+		</Location>
+		<Size>
+			<CX>85</CX>
+			<CY>24</CY>
+		</Size>
+		<TextOffsetX>2</TextOffsetX>
+		<!--<TextOffsetY>0</TextOffsetY>-->
+		<!--<GaugeOffsetX>0</GaugeOffsetX>-->
+		<GaugeOffsetY>12</GaugeOffsetY>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+		<FillTint>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</FillTint>
+		<LinesFillTint>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</LinesFillTint>
+		<DrawLinesFill>false</DrawLinesFill>
+		<EQType>14</EQType>
+		<GaugeDrawTemplate>
+			<Background>A_Classic_GaugeBackground</Background>
+			<Fill>A_Classic_GaugeFill</Fill>
+			<Lines>A_Classic_GaugeLines</Lines>
+			<!--<LinesFill>A_Classic_GaugeLinesFill</LinesFill>-->
+			<EndCapLeft>A_Classic_GaugeEndCapLeft</EndCapLeft>
+			<EndCapRight>A_Classic_GaugeEndCapRight</EndCapRight>
+		</GaugeDrawTemplate>
+	</Gauge>
+	
+	
+	
+	<Gauge item = "GW_Gauge5">
+		<ScreenID>Gauge5</ScreenID>
+		<!--<Font>3</Font>-->
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>19</X>
+			<Y>96</Y>
+		</Location>
+		<Size>
+			<CX>85</CX>
+			<CY>24</CY>
+		</Size>
+		<TextOffsetX>2</TextOffsetX>
+		<!--<TextOffsetY>0</TextOffsetY>-->
+		<!--<GaugeOffsetX>0</GaugeOffsetX>-->
+		<GaugeOffsetY>12</GaugeOffsetY>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+		<FillTint>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</FillTint>
+		<LinesFillTint>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</LinesFillTint>
+		<DrawLinesFill>false</DrawLinesFill>
+		<EQType>15</EQType>
+		<GaugeDrawTemplate>
+			<Background>A_Classic_GaugeBackground</Background>
+			<Fill>A_Classic_GaugeFill</Fill>
+			<Lines>A_Classic_GaugeLines</Lines>
+			<!--<LinesFill>A_Classic_GaugeLinesFill</LinesFill>-->
+			<EndCapLeft>A_Classic_GaugeEndCapLeft</EndCapLeft>
+			<EndCapRight>A_Classic_GaugeEndCapRight</EndCapRight>
+		</GaugeDrawTemplate>
+	</Gauge>
+
+
+<!-- faB: Added Stuff Here -->
+	<StaticAnimation item = "GW_bg">
+		<ScreenID>GW_bg</ScreenID>
+		<Location>
+			<X>13</X>
+			<Y>0</Y> 
+			<!-- 
+				y = -96
+			-->
+		</Location>
+		<Size>
+			<CX>95</CX>
+			<CY>124</CY>
+		</Size>
+		<Animation>GW_bg_TX</Animation>
+	</StaticAnimation>
+
+	<Screen item = "GroupWindow">
+		<ScreenID/>
+		<RelativePosition>false</RelativePosition>
+		<Location>
+			<X>545</X> 
+			<Y>96</Y>
+		</Location>
+		<Size>
+			<CX>121</CX>
+			<CY>200</CY>
+		</Size>
+		<Text>Group</Text>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>true</Style_Transparent>
+		<TooltipReference>This is the party window.</TooltipReference>
+		<DrawTemplate>WDT_Rounded</DrawTemplate>
+		<Style_Titlebar>false</Style_Titlebar>
+		<Style_Closebox>false</Style_Closebox>
+		<Style_Minimizebox>false</Style_Minimizebox>
+		<Style_Border>false</Style_Border>
+		<Style_Sizable>false</Style_Sizable>
+<!-- faB -->
+		<Pieces>GW_bg</Pieces>
+<!-- faB -->
+		<Pieces>GW_Gauge1</Pieces>
+		<Pieces>GW_Gauge2</Pieces>
+		<Pieces>GW_Gauge3</Pieces>
+		<Pieces>GW_Gauge4</Pieces>
+		<Pieces>GW_Gauge5</Pieces>
+	</Screen>
+
+</XML>

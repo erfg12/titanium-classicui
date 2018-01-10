@@ -1,0 +1,515 @@
+<?xml version = "1.0"?>
+<XML ID = "EQInterfaceDefinitionLanguage">
+	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
+
+<!--  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  -->
+<!--  "Classic UI" mod (c) Fabrice Denis (faB) 2002-2003       -->
+<!--  Based on the original EQ UI (c) Verant Interactive/Sony  -->
+<!--  Email: oukoulele@yahoo.fr                                -->
+<!--  Further modifications of this UI should include credit   -->
+<!--  to the author and a link to this UI download.            -->
+<!--  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  -->
+
+	<Ui2DAnimation item = "GVW_bg_bottomright_TX">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>classic_bg_left.tga</Texture>
+			<Location>
+				<X>120</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>7</CX>
+				<CY>153</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	
+	<StaticAnimation item = "GVW_bg_bottomright">
+		<ScreenID>GVW_bg_bottomright</ScreenID>
+		<Location>
+			<X>112</X>
+			<Y>320</Y>
+		</Location>
+		<Size>
+			<CX>7</CX>
+			<CY>154</CY>
+		</Size>
+		<Animation>GVW_bg_bottomright_TX</Animation>
+	</StaticAnimation>
+
+	<!-- background cover -->
+	<StaticAnimation item = "GVW_bg_1">
+		<ScreenID>GVW_bg_1</ScreenID>
+		<Location>
+			<X>0</X>
+			<Y>7</Y>
+		</Location>
+		<Size>
+			<CX>119</CX>
+			<CY>256</CY>
+		</Size>
+		<Animation>LEFTW_Overlap_bg_1_TX</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "GVW_bg_2">
+		<ScreenID>GVW_bg_2</ScreenID>
+		<Location>
+			<X>0</X>
+			<Y>263</Y>
+		</Location>
+		<Size>
+			<CX>119</CX>
+			<CY>240</CY>
+		</Size>
+		<Animation>LEFTW_Overlap_bg_2_TX</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "GVW_bg_target">
+		<ScreenID>GVW_bg_target</ScreenID>
+		<Location>
+			<X>8</X>
+			<Y>14</Y>
+		</Location>
+		<Size>
+			<CX>103</CX>
+			<CY>14</CY>
+		</Size>
+		<Animation>A_TargetNameBox</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "GVW_bg_div">
+		<ScreenID>GVW_bg_div</ScreenID>
+		<Location>
+			<X>0</X>
+			<Y>503</Y>
+		</Location>
+		<Size>
+			<CX>119</CX>
+			<CY>11</CY>
+		</Size>
+		<Animation>A_LEFT_Divider</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "GVW_cash_box">
+		<ScreenID>GVW_cash_box</ScreenID>
+		<Location>
+			<X>8</X>
+			<Y>262</Y>
+		</Location>
+		<Size>
+			<CX>103</CX>
+			<CY>85</CY>
+		</Size>
+		<Animation>A_RecessedCashBox</Animation>
+	</StaticAnimation>
+
+<!-- faB: backgrounds for give slots -->
+	<StaticAnimation item = "GVW_bg_slot1">
+		<ScreenID>GVW_bg_slot1</ScreenID>
+		<Location>
+			<X>35</X>
+			<Y>39</Y>
+		</Location>
+		<Size>
+			<CX>48</CX>
+			<CY>48</CY>
+		</Size>
+		<Animation>A_InvSlotFrame</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "GVW_bg_slot2">
+		<ScreenID>GVW_bg_slot2</ScreenID>
+		<Location>
+			<X>35</X>
+			<Y>93</Y>
+		</Location>
+		<Size>
+			<CX>48</CX>
+			<CY>48</CY>
+		</Size>
+		<Animation>A_InvSlotFrame</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "GVW_bg_slot3">
+		<ScreenID>GVW_bg_slot3</ScreenID>
+		<Location>
+			<X>35</X>
+			<Y>147</Y>
+		</Location>
+		<Size>
+			<CX>48</CX>
+			<CY>48</CY>
+		</Size>
+		<Animation>A_InvSlotFrame</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "GVW_bg_slot4">
+		<ScreenID>GVW_bg_slot4</ScreenID>
+		<Location>
+			<X>35</X>
+			<Y>201</Y>
+		</Location>
+		<Size>
+			<CX>48</CX>
+			<CY>48</CY>
+		</Size>
+		<Animation>A_InvSlotFrame</Animation>
+	</StaticAnimation>
+
+	<StaticAnimation item = "GVW_thickframe">
+		<ScreenID>GVW_thickframe</ScreenID>
+		<Location>
+			<X>25</X>
+			<Y>360</Y>
+		</Location>
+		<Size>
+			<CX>66</CX>
+			<CY>66</CY>
+		</Size>
+		<Animation>A_ThickBtnFrame</Animation>
+	</StaticAnimation>
+
+	<Label item ="GVW_NPCName">
+		<ScreenID>GVW_NPCName</ScreenID>
+		<Font>2</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>12</X>
+			<Y>14</Y>
+		</Location>
+		<Size>
+			<CX>100</CX>
+			<CY>40</CY>
+		</Size>
+		<Text>NPC Name</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
+
+
+	<InvSlot item = "GVW_MyItemSlot0">
+		<ScreenID>GVW_MyItemSlot0</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>39</X>
+			<Y>43</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>3000</EQType>
+		<ItemOffsetX>2</ItemOffsetX>
+		<ItemOffsetY>2</ItemOffsetY>
+	</InvSlot>
+	<InvSlot item = "GVW_MyItemSlot1">
+		<ScreenID>GVW_MyItemSlot1</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>39</X>
+			<Y>97</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>3001</EQType>
+		<ItemOffsetX>2</ItemOffsetX>
+		<ItemOffsetY>2</ItemOffsetY>
+	</InvSlot>
+	<InvSlot item = "GVW_MyItemSlot2">
+		<ScreenID>GVW_MyItemSlot2</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>39</X>
+			<Y>151</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>3002</EQType>
+		<ItemOffsetX>2</ItemOffsetX>
+		<ItemOffsetY>2</ItemOffsetY>
+	</InvSlot>
+	<InvSlot item = "GVW_MyItemSlot3">
+		<ScreenID>GVW_MyItemSlot3</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>39</X>
+			<Y>204</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>3003</EQType>
+		<ItemOffsetX>2</ItemOffsetX>
+		<ItemOffsetY>2</ItemOffsetY>
+	</InvSlot>
+
+	<Button item = "GVW_MyMoney0">
+		<ScreenID>GVW_MyMoney0</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>16</X>
+			<Y>271</Y>
+		</Location>
+		<Size>
+			<CX>93</CX>
+			<CY>17</CY>
+		</Size>
+		<Style_Transparent>true</Style_Transparent>
+		<TooltipReference>Drop coins here</TooltipReference>
+		<Style_Checkbox>false</Style_Checkbox>
+		<RadioGroup/>
+		<Text>60000</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>faB_Spacer</Normal>
+			<NormalDecal>A_PlatinumCoin</NormalDecal>
+		</ButtonDrawTemplate>
+		<DecalOffset>
+			<X>0</X>
+			<Y>0</Y>
+		</DecalOffset>
+		<DecalSize>
+			<CX>18</CX>
+			<CY>18</CY>
+		</DecalSize>
+	</Button>
+	<Button item = "GVW_MyMoney1">
+		<ScreenID>GVW_MyMoney1</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>16</X>
+			<Y>288</Y>
+		</Location>
+		<Size>
+			<CX>93</CX>
+			<CY>17</CY>
+		</Size>
+		<Style_Transparent>true</Style_Transparent>
+		<TooltipReference>Drop coins here</TooltipReference>
+		<Style_Checkbox>false</Style_Checkbox>
+		<!--<RadioGroup/>-->
+		<Text>60000</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>faB_Spacer</Normal>
+			<NormalDecal>A_GoldCoin</NormalDecal>
+		</ButtonDrawTemplate>
+		<DecalOffset>
+			<X>0</X>
+			<Y>0</Y>
+		</DecalOffset>
+		<DecalSize>
+			<CX>18</CX>
+			<CY>18</CY>
+		</DecalSize>
+	</Button>
+	<Button item = "GVW_MyMoney2">
+		<ScreenID>GVW_MyMoney2</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>16</X>
+			<Y>305</Y>
+		</Location>
+		<Size>
+			<CX>93</CX>
+			<CY>17</CY>
+		</Size>
+		<Style_Transparent>true</Style_Transparent>
+		<TooltipReference>Drop coins here</TooltipReference>
+		<Style_Checkbox>false</Style_Checkbox>
+		<!--<RadioGroup/>-->
+		<Text>60000</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>faB_Spacer</Normal>
+			<NormalDecal>A_SilverCoin</NormalDecal>
+		</ButtonDrawTemplate>
+		<DecalOffset>
+			<X>0</X>
+			<Y>0</Y>
+		</DecalOffset>
+		<DecalSize>
+			<CX>18</CX>
+			<CY>18</CY>
+		</DecalSize>
+	</Button>
+	<Button item = "GVW_MyMoney3">
+		<ScreenID>GVW_MyMoney3</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>16</X>
+			<Y>322</Y>
+		</Location>
+		<Size>
+			<CX>93</CX>
+			<CY>17</CY>
+		</Size>
+		<Style_Transparent>true</Style_Transparent>
+		<TooltipReference>Drop coins here</TooltipReference>
+		<Style_Checkbox>false</Style_Checkbox>
+		<!--<RadioGroup/>-->
+		<Text>60000</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>faB_Spacer</Normal>
+			<NormalDecal>A_CopperCoin</NormalDecal>
+		</ButtonDrawTemplate>
+		<DecalOffset>
+			<X>0</X>
+			<Y>0</Y>
+		</DecalOffset>
+		<DecalSize>
+			<CX>18</CX>
+			<CY>18</CY>
+		</DecalSize>
+	</Button>
+
+	<Button item = "GVW_Give_Button">
+		<ScreenID>GVW_Give_Button</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>38</X>
+			<Y>373</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+		<Style_Checkbox>false</Style_Checkbox>
+		<!--<RadioGroup/>-->
+		<Text>Give</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_SquareBtnNormal</Normal>
+			<Pressed>A_SquareBtnPressed</Pressed>
+			<Flyby>A_SquareBtnFlyby</Flyby>
+			<Disabled>A_SquareBtnDisabled</Disabled>
+			<PressedFlyby>A_SquareBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "GVW_Cancel_Button">
+		<ScreenID>GVW_Cancel_Button</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>28</X>
+			<Y>432</Y>
+		</Location>
+		<Size>
+			<CX>61</CX>
+			<CY>34</CY>
+		</Size>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+		<Style_Checkbox>false</Style_Checkbox>
+		<!--<RadioGroup/>-->
+		<Text>Cancel</Text>
+		<TextColor>
+				<R>29</R>
+				<G>21</G>
+				<B>21</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BtnNormal</Normal>
+			<Pressed>A_BtnPressed</Pressed>
+			<Flyby>A_BtnFlyby</Flyby>
+			<Disabled>A_BtnDisabled</Disabled>
+			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Screen item = "GiveWnd">
+		<!--<ScreenID/>-->
+		<RelativePosition>false</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>119</CX>
+			<CY>474</CY>
+		</Size>
+		<Text>Give</Text>
+		<Style_Transparent>true</Style_Transparent>
+		<!--<TooltipReference/>-->
+		<DrawTemplate>WDT_Rounded</DrawTemplate>
+		<Style_Titlebar>false</Style_Titlebar>
+		<Style_Closebox>true</Style_Closebox>
+		<Style_Minimizebox>false</Style_Minimizebox>
+		<Style_Border>false</Style_Border>
+		<Style_Sizable>false</Style_Sizable>
+<!-- faB -->
+	<Pieces>GVW_bg_1</Pieces>
+	<Pieces>GVW_bg_2</Pieces>
+	<Pieces>GVW_bg_target</Pieces>
+	<Pieces>GVW_bg_div</Pieces>
+	<Pieces>GVW_cash_box</Pieces>
+	<Pieces>GVW_bg_slot1</Pieces>
+	<Pieces>GVW_bg_slot2</Pieces>
+	<Pieces>GVW_bg_slot3</Pieces>
+	<Pieces>GVW_bg_slot4</Pieces>
+	<Pieces>GVW_thickframe</Pieces>
+<!-- faB -->
+	<Pieces>GVW_bg_bottomright</Pieces>
+	
+	<Pieces>GVW_NPCName</Pieces>
+	<Pieces>GVW_MyItemSlot0</Pieces>
+	<Pieces>GVW_MyItemSlot1</Pieces>
+	<Pieces>GVW_MyItemSlot2</Pieces>
+	<Pieces>GVW_MyItemSlot3</Pieces>
+	<Pieces>GVW_MyMoney0</Pieces>
+	<Pieces>GVW_MyMoney1</Pieces>
+	<Pieces>GVW_MyMoney2</Pieces>
+	<Pieces>GVW_MyMoney3</Pieces>
+	<Pieces>GVW_Give_Button</Pieces>
+	<Pieces>GVW_Cancel_Button</Pieces>
+	</Screen>
+
+</XML>

@@ -1,0 +1,97 @@
+<?xml version = "1.0"?>
+<XML ID = "EQInterfaceDefinitionLanguage">
+	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
+
+<!--  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  -->
+<!--  "Classic UI" mod (c) Fabrice Denis (faB) 2002-2003       -->
+<!--  Based on the original EQ UI (c) Verant Interactive/Sony  -->
+<!--  Email: oukoulele@yahoo.fr                                -->
+<!--  Last Rev. : 07 April 2003.                               -->
+<!--  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  -->
+
+	<Editbox item = "PlayerNotesInput">
+		<ScreenID>PlayerNotesInput</ScreenID>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<Style_Transparent>true</Style_Transparent>
+		<Style_VScroll>true</Style_VScroll>
+		<RelativePosition>true</RelativePosition>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorOffset>0</LeftAnchorOffset>
+		<TopAnchorOffset>0</TopAnchorOffset>
+		<RightAnchorOffset>0</RightAnchorOffset>
+		<BottomAnchorOffset>0</BottomAnchorOffset>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<TextColor>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
+		</TextColor>
+		<Style_Multiline>true</Style_Multiline>
+	</Editbox>
+
+	<Button item = "PNW_StretchableBg">
+		<ScreenID>PNW_StretchableBg</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorOffset>0</LeftAnchorOffset>
+		<TopAnchorOffset>0</TopAnchorOffset>
+		<RightAnchorOffset>0</RightAnchorOffset>
+		<BottomAnchorOffset>0</BottomAnchorOffset>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+		<Style_Checkbox>false</Style_Checkbox>
+		<!--<RadioGroup/>-->
+		<ButtonDrawTemplate>
+			<Normal>PNW_BackgroundTexture</Normal>
+			<NormalDecal>faB_Spacer</NormalDecal>
+		</ButtonDrawTemplate>
+		<!--<SoundPressed/>-->
+		<!--<<SoundUp/>-->
+		<!--<SoundFlyby/>-->
+		<DecalOffset>
+			<X>0</X>
+			<Y>0</Y>
+		</DecalOffset>
+		<DecalSize>
+			<CX>0</CX>
+			<CY>0</CY>
+		</DecalSize>
+	</Button>
+	
+	<Screen item = "PlayerNotesWindow">
+		<!--<ScreenID/>-->
+		<!--<Font>3</Font>-->
+		<RelativePosition>false</RelativePosition>
+		<Location>
+			<X>100</X>
+			<Y>80</Y>
+		</Location>
+		<Size>
+			<CX>50</CX>
+			<CY>50</CY>
+		</Size>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>true</Style_Transparent>
+		<DrawTemplate>WDT_SizableRolledParchment</DrawTemplate>
+		<Style_Titlebar>true</Style_Titlebar>
+		<Style_Closebox>true</Style_Closebox>
+<!-- faB : not too nice looking minimized, so disabled -->
+		<Style_Minimizebox>false</Style_Minimizebox>
+		<Style_Border>true</Style_Border>
+		<Style_Sizable>true</Style_Sizable>
+		<Text>Notes Window</Text>
+<!-- faB : BACKGROUND -->
+	<Pieces>PNW_StretchableBg</Pieces>
+<!-- faB -->
+		<Pieces>PlayerNotesInput</Pieces>
+	</Screen>
+
+</XML>

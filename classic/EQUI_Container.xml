@@ -1,0 +1,427 @@
+ <?xml version = "1.0"?>
+<XML ID = "EQInterfaceDefinitionLanguage">
+	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
+
+<!--  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  -->
+<!--  "Classic UI" mod (c) Fabrice Denis (faB) 2002-2003       -->
+<!--  Based on the original EQ UI (c) Verant Interactive/Sony  -->
+<!--  Email: oukoulele@yahoo.fr                                -->
+<!--  Further modifications of this UI should include credit   -->
+<!--  to the author and a link to this UI download.            -->
+<!--  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  -->
+
+<!-- graphic buttons, containing background to hide the repeating slots in bg -->
+	<Ui2DAnimation item = "Btn_Combine_Normal">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>classic_pieces02.tga</Texture>
+			<Location>
+				<X>49</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>79</CX>
+				<CY>19</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "Btn_Combine_Pressed">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>classic_pieces02.tga</Texture>
+			<Location>
+				<X>49</X>
+				<Y>20</Y>
+			</Location>
+			<Size>
+				<CX>79</CX>
+				<CY>19</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<StaticAnimation item = "ContainerIconFrame">
+		<ScreenID>ContainerIconFrame</ScreenID>
+		<Location>
+			<X>21</X>
+			<Y>14</Y>
+		</Location>
+		<Size>
+			<CX>48</CX>
+			<CY>48</CY>
+		</Size>
+		<Animation>A_InvSlotFrame</Animation>
+	</StaticAnimation>
+<!-- faB -->
+
+	<Label item ="Container_Label">
+		<ScreenID>Container_Label</ScreenID>
+		<Font>1</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>2</Y>
+		</Location>
+		<Size>
+			<CX>88</CX>
+			<CY>32</CY>
+		</Size>
+		<Text>Container Name Here</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>false</NoWrap>
+		<AlignCenter>true</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
+
+	<Button item = "Container_Icon">
+		<ScreenID>Container_Icon</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>25</X>
+			<Y>18</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+		<Style_Checkbox>false</Style_Checkbox>
+		<!--<RadioGroup/>-->
+		<Text/>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>faB_Spacer</Normal>
+			<NormalDecal>faB_Spacer</NormalDecal>
+		</ButtonDrawTemplate>
+		<DecalOffset>
+			<X>0</X>
+			<Y>0</Y>
+		</DecalOffset>
+		<DecalSize>
+			<CX>40</CX>
+			<CY>40</CY>
+		</DecalSize>
+	</Button>
+
+	<InvSlot item = "ContainerSlot1">
+		<ScreenID>ContainerSlot1</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>4</X>
+			<Y>84</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>30</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<TooltipReference/>
+	</InvSlot>
+
+	<InvSlot item = "ContainerSlot2">
+		<ScreenID>ContainerSlot2</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>45</X>
+			<Y>84</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>31</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<TooltipReference/>
+	</InvSlot>
+
+	<InvSlot item = "ContainerSlot3">
+		<ScreenID>ContainerSlot3</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>4</X>
+			<Y>125</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>32</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<TooltipReference/>
+	</InvSlot>
+
+	<InvSlot item = "ContainerSlot4">
+		<ScreenID>ContainerSlot4</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>45</X>
+			<Y>125</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>33</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<TooltipReference/>
+	</InvSlot>
+
+	<InvSlot item = "ContainerSlot5">
+		<ScreenID>ContainerSlot5</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>4</X>
+			<Y>166</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>34</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<TooltipReference/>
+	</InvSlot>
+
+	<InvSlot item = "ContainerSlot6">
+		<ScreenID>ContainerSlot6</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>45</X>
+			<Y>166</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>35</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<TooltipReference/>
+	</InvSlot>
+
+	<InvSlot item = "ContainerSlot7">
+		<ScreenID>ContainerSlot7</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>4</X>
+			<Y>207</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>36</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<TooltipReference/>
+	</InvSlot>
+
+	<InvSlot item = "ContainerSlot8">
+		<ScreenID>ContainerSlot8</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>45</X>
+			<Y>207</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>37</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<TooltipReference/>
+	</InvSlot>
+
+	<InvSlot item = "ContainerSlot9">
+		<ScreenID>ContainerSlot9</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>4</X>
+			<Y>248</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>38</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<TooltipReference/>
+	</InvSlot>
+
+	<InvSlot item = "ContainerSlot10">
+		<ScreenID>ContainerSlot10</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>45</X>
+			<Y>248</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>39</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<TooltipReference/>
+	</InvSlot>
+
+	<Button item = "Container_Combine">
+		<ScreenID>Container_Combine</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>79</CX>
+			<CY>19</CY>
+		</Size>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+		<Style_Checkbox>false</Style_Checkbox>
+		<!--<RadioGroup/>-->
+		<Text></Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>Btn_Combine_Normal</Normal>
+			<Pressed>Btn_Combine_Pressed</Pressed>
+			<Flyby>Btn_Combine_Normal</Flyby>
+			<Disabled>Btn_Combine_Pressed</Disabled>
+			<PressedFlyby>Btn_Combine_Pressed</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "Container_DoneButton">
+		<ScreenID>DoneButton</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>48</CX>
+			<CY>19</CY>
+		</Size>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+		<Style_Checkbox>false</Style_Checkbox>
+		<!--<RadioGroup/>-->
+		<Text></Text>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>Btn_Done_Normal</Normal>
+			<Pressed>Btn_Done_Pressed</Pressed>
+			<Flyby>Btn_Done_Normal</Flyby>
+			<Disabled>Btn_Done_Pressed</Disabled>
+			<PressedFlyby>Btn_Done_Pressed</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Screen item = "ContainerWindow">
+		<!--<ScreenID/>-->
+		<!--<Font/>-->
+		<RelativePosition>false</RelativePosition>
+		<Location>
+			<X>350</X>
+			<Y>100</Y>
+		</Location>
+		<Size>
+<!-- 96 -->
+			<CX>112</CX>
+			<CY>366</CY>
+		</Size>
+		<Text>Container</Text>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<TooltipReference>Container</TooltipReference>
+		<DrawTemplate>WDT_Def</DrawTemplate>
+		<Style_Titlebar>false</Style_Titlebar>
+		<Style_Closebox>false</Style_Closebox>
+		<Style_Minimizebox>false</Style_Minimizebox>
+		<Style_Border>true</Style_Border>
+		<Style_Sizable>false</Style_Sizable>
+<!-- faB -->
+	<Pieces>ContainerIconFrame</Pieces>
+<!-- faB -->
+		<Pieces>Container_Label</Pieces>
+		<Pieces>Container_Icon</Pieces>
+		<Pieces>ContainerSlot1</Pieces>
+		<Pieces>ContainerSlot2</Pieces>
+		<Pieces>ContainerSlot3</Pieces>
+		<Pieces>ContainerSlot4</Pieces>
+		<Pieces>ContainerSlot5</Pieces>
+		<Pieces>ContainerSlot6</Pieces>
+		<Pieces>ContainerSlot7</Pieces>
+		<Pieces>ContainerSlot8</Pieces>
+		<Pieces>ContainerSlot9</Pieces>
+		<Pieces>ContainerSlot10</Pieces>
+		<Pieces>Container_Combine</Pieces>
+		<Pieces>Container_DoneButton</Pieces>
+	</Screen>
+
+</XML>

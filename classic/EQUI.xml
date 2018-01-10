@@ -1,0 +1,126 @@
+<?xml version = "1.0"?>
+
+<XML ID = "EQInterfaceDefinitionLanguage">
+    <Composite>
+		<Include>SIDL.xml</Include>								<!-- faB's original-->
+		<Include>EQUI_Animations.xml</Include>					<!-- dualentity - updated -->
+		<Include>EQUI_Templates.xml</Include>					<!-- faB's original-->
+		
+		<Include>faB_debug.xml</Include>						<!-- faB's original-->
+		<Include>faB_Classic.xml</Include>						<!-- faB's original-->
+		
+		<Include>EQUI_CharacterCreate.xml</Include>				<!-- dualentity - needs consideration -->
+		<Include>EQUI_ChatWindow.xml</Include> 					<!-- dualentity - fixed -->
+		<Include>EQUI_ConfirmationDialog.xml</Include>			<!-- faB's original-->
+		<Include>EQUI_CharacterSelect.xml</Include>				<!-- dualentity - needs consideration -->
+		<Include>EQUI_FacePick.xml</Include>					<!-- faB's original -->
+		<Include>EQUI_GroupWindow.xml</Include>					<!-- dualentity - fixed -->
+		<Include>EQUI_ItemDisplay.xml</Include>					<!-- faB's original-->
+		<Include>EQUI_BreathWindow.xml</Include>				<!-- faB's original-->
+		<Include>EQUI_NoteWindow.xml</Include>					<!-- faB's original-->
+		<Include>EQUI_OptionsWindow.xml</Include>				<!-- dualentity - fixed -->
+		<Include>EQUI_BookWindow.xml</Include>					<!-- faB's original-->
+		<Include>EQUI_PlayerWindow.xml</Include>				<!-- dualentity - fixed -->
+		<Include>EQUI_CastingWindow.xml</Include>				<!-- dualentity - fixed-->
+		<Include>EQUI_TargetWindow.xml</Include> 				<!-- dualentity - fixed -->
+		<Include>EQUI_AAWindow.xml</Include>					<!-- dualentity - disabled -->
+		<Include>EQUI_Inventory.xml</Include>					<!-- dualentity - fixed -->
+		<Include>EQUI_CursorAttachment.xml</Include>			<!-- faB's original-->
+		<Include>EQUI_CastSpellWnd.xml</Include>				<!-- dualentity - fixed -->
+		<Include>EQUI_SpellBookWnd.xml</Include>				<!-- dualentity - in process -->
+		<Include>EQUI_FriendsWnd.xml</Include>					<!-- dualentity - disabled -->
+		<Include>EQUI_PetInfoWindow.xml</Include>				<!-- dualentity - disabled -->
+		<Include>EQUI_TrainWindow.xml</Include>					<!-- faB's original-->
+		<Include>EQUI_BankWnd.xml</Include>						<!-- dualentity - in process -->
+		<Include>EQUI_Container.xml</Include>					<!-- dualentity - in process -->
+		<Include>EQUI_QuantityWnd.xml</Include>					<!-- faB's original-->
+		<Include>EQUI_LootWnd.xml</Include>						<!-- dualentity - fixed -->
+		<Include>EQUI_ActionsWindow.xml</Include>				<!-- dualentity - fixed -->
+		<Include>EQUI_SkillsWindow.xml</Include>				<!-- dualentity - needs consideration -->
+		<Include>EQUI_SkillsSelectWindow.xml</Include>			<!-- dualentity - needs consideration -->
+		<Include>EQUI_TradeWnd.xml</Include>					<!-- faB's original-->
+		<Include>EQUI_MerchantWnd.xml</Include>					<!-- dualentity - needs consideration -->
+		<Include>EQUI_SelectorWnd.xml</Include>					<!-- dualentity - fixed -->
+		<Include>EQUI_BazaarWnd.xml</Include>					<!-- dualentity - disabled -->
+		<Include>EQUI_GiveWnd.xml</Include>						<!-- dualentity - in process -->
+		<Include>EQUI_TrackingWnd.xml</Include>					<!-- faB's original-->
+		<Include>EQUI_HotButtonWnd.xml</Include>				<!-- dualentity - fixed -->
+		<Include>EQUI_InspectWnd.xml</Include>					<!-- faB's original-->
+		<Include>EQUI_SocialEditWnd.xml</Include>				<!-- faB's original	- needs to have charm area removed ????--> 
+		<Include>EQUI_FeedbackWnd.xml</Include>					<!-- faB's original-->
+		<Include>EQUI_BugReportWnd.xml</Include>				<!-- faB's original-->
+		<Include>EQUI_BazaarSearchWnd.xml</Include>				<!-- faB's original - disabled -->
+		<Include>EQUI_ColorPickerWnd.xml</Include>				<!-- faB's original-->
+		<Include>EQUI_VideoModesWnd.xml</Include>				<!-- faB's original-->
+		<Include>EQUI_TextEntryWnd.xml</Include>				<!-- faB's original-->
+		<Include>EQUI_CompassWnd.xml</Include>					<!-- dualentity - disabled -->
+		<Include>EQUI_GemsGameWnd.xml</Include>					<!-- faB's original-->
+		<Include>EQUI_PlayerNotesWindow.xml</Include>			<!-- faB's original-->
+		<Include>EQUI_LoadskinWnd.xml</Include>					<!-- dualentity - fixed -->
+		<Include>EQUI_AlarmWnd.xml</Include>        			<!-- faB's original-->
+		<Include>EQUI_RaidWindow.xml</Include>					<!-- dualentity - disabled -->
+		<Include>EQUI_RaidOptionsWindow.xml</Include>			<!-- faB's original-->
+		<Include>EQUI_MusicPlayerWnd.xml</Include>				<!-- dualentity - disabled -->
+		<Include>EQUI_FileSelectionWnd.xml</Include>			<!-- faB's original-->
+		<Include>EQUI_BigBankWnd.xml</Include>					<!-- ?? -->
+		<Include>EQUI_JournalNPCWnd.xml</Include>				<!-- faB's original-->
+		<Include>EQUI_JournalCatWnd.xml</Include>				<!-- faB's original-->
+		<Include>EQUI_ShortDurationBuffWindow.xml</Include>		<!-- faB's original-->
+		<Include>EQUI_StoryWnd.xml</Include>					<!-- dualentity - disabled -->
+		<Include>EQUI_BodyTintWnd.xml</Include>					<!-- faB's original-->
+		<Include>EQUI_GroupSearchWnd.xml</Include>				<!-- dualentity - disabled -->
+		<Include>EQUI_MapViewWnd.xml</Include>					<!-- faB's original - disabled -->
+		<Include>EQUI_MapToolbarWnd.xml</Include>				<!-- faB's original - disabled -->
+		<Include>EQUI_EditLabelWnd.xml</Include>				<!-- ?? -->
+		<Include>EQUI_GuildManagementWnd.xml</Include>			<!-- faB's original-->
+		<Include>EQUI_SystemInfoWnd.xml</Include>				<!-- ?? -->
+		<Include>EQUI_AdventureRequestWnd.xml</Include>			<!-- dualentity - disabled -->
+		<Include>EQUI_AdventureMerchantWnd.xml</Include>		<!-- faB's original-->
+		<Include>EQUI_AdventureStatsWnd.xml</Include>			<!-- faB's original-->
+		<Include>EQUI_AdventureLeaderboardWnd.xml</Include>		<!-- faB's original-->
+		<Include>EQUI_BuffWindow.xml</Include>					<!-- dualentity - fixed -->
+		
+		<!-- dualentity - added everything below (fixes zone crashing issues) -->
+		<Include>EQUI_FindLocationWnd.xml</Include>				<!-- dualentity - disabled -->
+        <Include>EQUI_CombatAbilityWnd.xml</Include>			<!-- dualentity - disabled -->
+        <Include>EQUI_CombatSkillsSelectWindow.xml</Include>	<!-- dualentity - disabled -->
+        <Include>EQUI_TradeskillWnd.xml</Include>
+        <!-- <Include>EQUI_DynamicZoneWnd.xml</Include>	-->		<!-- dualentity - disabled -->
+        <Include>EQUI_TextMessageWindow.xml</Include>			<!-- ?? -->
+        <Include>EQUI_TributeBenefitWnd.xml</Include>			<!-- dualentity - disabled -->
+	    <Include>EQUI_TributeMasterWnd.xml</Include>			<!-- ?? -->
+		<Include>EQUI_LeadershipWnd.xml</Include>				<!-- dualentity - disabled -->
+        <Include>EQUI_TargetOfTargetWindow.xml</Include>		<!-- dualentity - disabled -->
+        <Include>EQUI_GmAttentionTextWnd.xml</Include>			<!-- ?? -->
+        <Include>EQUI_LargeDialogWnd.xml</Include>				<!-- ?? -->
+		<Include>EQUI_TicketWindow.xml</Include>				<!-- ?? -->
+		<Include>EQUI_TicketCommentWindow.xml</Include>			<!-- ?? -->
+		<Include>EQUI_GuildTributeMasterWnd.xml</Include>		<!-- dualentity - disabled -->
+		<Include>EQUI_TaskWnd.xml</Include>						<!-- dualentity - disabled -->
+		<Include>EQUI_TaskSelectWnd.xml</Include>				<!-- ?? -->
+		<Include>EQUI_AdvancedDisplayOptionsWnd.xml</Include>	<!-- faB's original-->
+		<Include>EQUI_TitleWnd.xml</Include>					<!-- dualentity - disabled -->
+		<Include>EQUI_VoiceMacroWnd.xml</Include>				<!-- dualentity - disabled -->
+        <Include>EQUI_PvPLeaderBoardWnd.xml</Include>			<!-- ?? -->
+        <Include>EQUI_PvPStatsWnd.xml</Include>					<!-- ?? -->
+		<Include>EQUI_PointMerchantWnd.xml</Include>			<!-- ?? -->
+		<Include>EQUI_BarterWnd.xml</Include>					<!-- ?? -->
+		<Include>EQUI_BarterMerchantWnd.xml</Include>			<!-- ?? -->
+		<Include>EQUI_BarterSearchWnd.xml</Include>				<!-- ?? -->
+		<Include>EQUI_ServerListWnd.xml</Include>
+		<Include>EQUI_BandolierWnd.xml</Include>				<!-- dualentity - disabled -->
+		<Include>EQUI_PotionBeltWnd.xml</Include>				<!-- dualentity - disabled -->
+		<Include>EQUI_LFGuildWnd.xml</Include>					<!-- dualentity - disabled -->
+		<Include>EQUI_GuildBankWnd.xml</Include>				<!-- faB's original-->
+		<Include>EQUI_TaskTemplateSelectWnd.xml</Include>		<!-- ?? -->
+		<Include>EQUI_RespawnWnd.xml</Include>					<!-- ?? -->
+		<Include>EQUI_AltStorageWnd.xml</Include>				<!-- ?? -->
+		<Include>EQUI_ItemExpTransferWnd.xml</Include>
+		<Include>EQUI_ProgressionSelectionWnd.xml</Include>		<!-- ?? -->
+		<Include>EQUI_MIZoneSelectWnd.xml</Include>				<!-- ?? -->
+		<Include>EQUI_EQMainWnd.xml</Include>					<!-- dualentity - disabled -->
+		<Include>EQUI_AudioTriggersWindow.xml</Include>			<!-- ?? -->
+
+   </Composite>
+    <Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
+</XML>

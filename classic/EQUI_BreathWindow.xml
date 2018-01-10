@@ -1,0 +1,172 @@
+<?xml version = "1.0"?>
+<XML ID = "EQInterfaceDefinitionLanguage">
+	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
+
+<!--  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  -->
+<!--  "Classic UI" mod (c) Fabrice Denis (faB) 2002-2003       -->
+<!--  Based on the original EQ UI (c) Verant Interactive/Sony  -->
+<!--  Email: oukoulele@yahoo.fr                                -->
+<!--  Last Rev. 11 April 2003                                  -->
+<!--  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  -->
+
+<!-- Breathing Gauge Box Bits -->
+	<Ui2DAnimation item = "BRTW_Bg1_TX">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>classic_pieces03.tga</Texture>
+			<Location>
+				<X>148</X>
+				<Y>97</Y>
+			</Location>
+			<Size>
+				<CX>95</CX>
+				<CY>7</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "BRTW_Bg2_TX">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>classic_pieces03.tga</Texture>
+			<Location>
+				<X>148</X>
+				<Y>117</Y>
+			</Location>
+			<Size>
+				<CX>95</CX>
+				<CY>16</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+<!-- Breathing Gauge Box Bits -->
+	<StaticAnimation item = "BRTW_Bg1">
+		<ScreenID>BRTW_Bg1</ScreenID>
+		<Location>
+			<X>6</X>
+			<Y>5</Y>
+		</Location>
+		<Size>
+			<CX>95</CX>
+			<CY>7</CY>
+		</Size>
+		<Animation>BRTW_Bg1_TX</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "BRTW_Bg2">
+		<ScreenID>BRTW_Bg2</ScreenID>
+		<Location>
+			<X>6</X>
+			<Y>12</Y>
+		</Location>
+		<Size>
+			<CX>95</CX>
+			<CY>16</CY>
+		</Size>
+		<Animation>BRTW_Bg2_TX</Animation>
+	</StaticAnimation>
+
+
+<!-- Breathing Gauge Label -->
+	<Label item ="BRTW_Label">
+		<ScreenID>BRTW_Label</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>28</Y>
+		</Location>
+		<Size>
+			<CX>107</CX>
+			<CY>40</CY>
+		</Size>
+		<Text>AIR REMAINING</Text>
+		<TextColor>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>true</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
+
+	<Gauge item = "BREATH_Gauge">
+		<!--<Font>3</Font> -->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>11</X>
+			<Y>11</Y>
+		</Location>
+		<Size>
+			<CX>85</CX>
+			<CY>12</CY>
+		</Size>
+		<GaugeOffsetY>0</GaugeOffsetY>
+		<TextOffsetY>-20</TextOffsetY>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<!--<TooltipReference/>-->
+		<FillTint>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</FillTint>
+		<LinesFillTint>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</LinesFillTint>
+		<DrawLinesFill>false</DrawLinesFill>
+		<EQType>8</EQType>
+		<GaugeDrawTemplate>
+			<Background>A_Classic_GaugeBackground</Background>
+			<Fill>A_Classic_GaugeFill4</Fill>
+			<Lines>A_Classic_GaugeLines</Lines>
+			<LinesFill>A_Classic_GaugeLinesFill</LinesFill>
+			<EndCapLeft>A_Classic_GaugeEndCapLeft</EndCapLeft>
+			<EndCapRight>A_Classic_GaugeEndCapRight</EndCapRight>
+		</GaugeDrawTemplate>
+	</Gauge>
+
+	<Screen item = "BreathWindow">
+		<!--<ScreenID/>-->
+		<!--<Font/>-->
+		<RelativePosition>false</RelativePosition>
+		<Location>
+			<X>154</X>
+			<Y>50</Y>
+		</Location>
+		<Size>
+			<CX>121</CX>
+			<CY>57</CY>
+		</Size>
+		<Text>Air Remaining</Text>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<TooltipReference>The Breath Meter</TooltipReference>
+		<DrawTemplate>WDT_Def</DrawTemplate>
+		<Style_Titlebar>false</Style_Titlebar>
+		<Style_Closebox>false</Style_Closebox>
+		<Style_Minimizebox>false</Style_Minimizebox>
+		<Style_Border>true</Style_Border>
+		<Style_Sizable>false</Style_Sizable>
+<!-- faB -->
+		<Pieces>BRTW_Bg1</Pieces>
+		<Pieces>BRTW_Bg2</Pieces>
+		<Pieces>BRTW_Label</Pieces>
+<!-- faB -->
+		<Pieces>BREATH_Gauge</Pieces>
+	</Screen>
+
+</XML>
