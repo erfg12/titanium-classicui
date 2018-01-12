@@ -11,4 +11,4 @@ This is mostly programmed by faBBe and dualentity. Some minor tweaks & fixes nee
 - In game, use the command "__/loadskin classic 0__".
 - In game, use the command "__/viewport 119 0 400 320__".
 - Press I to open inventory to make the persona icon appear.
-- Open "__(_EQpath_)/UI_CharName_project1999.ini__" with notepad and add "__Show=1__" below the "__[SelectorWindow]__" text.
+- Copy "__UI_CharName_P1999.ini__" to your "__(_EQpath_)__" and replace "CharName" with your characters name.
