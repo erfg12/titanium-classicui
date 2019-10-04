@@ -2,7 +2,7 @@
 
 A theme UI built for the EverQuest Titanium game client to look like the classic 640x480 interface.
 
-This is mostly programmed by faBBe and dualentity. Some minor tweaks & fixes need to be done. Currently the Project 1999 server is an issue since patch version 50d.
+This is mostly programmed by faBBe and dualentity. Some minor tweaks & fixes need to be done.
 
 ## Installation
 
@@ -18,3 +18,6 @@ This is mostly programmed by faBBe and dualentity. Some minor tweaks & fixes nee
 ## Notes
 
 - Press I to open inventory to make the persona icon appear.
+- Project 1999 server patch v5.0d broke some of the UI elements.
+
+![](https://newagesoldier.com/titanium-classicui/Capture%20v0.1.PNG)
